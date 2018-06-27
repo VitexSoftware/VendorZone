@@ -1,6 +1,6 @@
 <?php
 
-namespace ClientZone;
+namespace VendorZone;
 
 require_once 'includes/Init.php';
 

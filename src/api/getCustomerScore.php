@@ -23,7 +23,7 @@ $form->addItem(new \Ease\TWB\SubmitButton(_('Get Score')));
 $container->addItem($form);
 
 if ($addressID) {
-    $reminder = new \ClientZone\Upominac();
+    $reminder = new \VendorZone\Upominac();
     $container->addItem(new Ease\Html\H1Tag($reminder->getCustomerScore($addressID)));
     $adresar  = new FlexiPeeHP\Adresar($addressID);
     $container->addItem(new \Ease\Html\H2Tag($adresar->getDataValue('nazev')));

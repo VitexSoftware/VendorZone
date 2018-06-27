@@ -5,7 +5,7 @@
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
  */
-namespace ClientZone;
+namespace VendorZone;
 
 require_once 'includes/Init.php';
 

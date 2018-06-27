@@ -11,10 +11,10 @@ src/js/*.js		usr/share/clientzone/js
 src/images/*		usr/share/clientzone/images
 src/config.json 	etc/clientzone
 src/includes/Init.php	usr/share/clientzone/includes
-src/ClientZone/*.php	usr/share/clientzone/ClientZone
-src/ClientZone/ui/*.php	usr/share/clientzone/ClientZone/ui
-src/ClientZone/orderplugins/*.php	usr/share/clientzone/ClientZone/orderplugins
-src/ClientZone/whplugins/*.php	usr/share/clientzone/ClientZone/whplugins
+src/VendorZone/*.php	usr/share/clientzone/VendorZone
+src/VendorZone/ui/*.php	usr/share/clientzone/VendorZone/ui
+src/VendorZone/orderplugins/*.php	usr/share/clientzone/VendorZone/orderplugins
+src/VendorZone/whplugins/*.php	usr/share/clientzone/VendorZone/whplugins
 debian/conf/clientzone.conf	etc/apache2/conf-available
 debian/conf/clientzone.service etc/avahi/services
 README.md               usr/share/doc/clientzone/

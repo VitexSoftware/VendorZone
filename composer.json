@@ -17,11 +17,11 @@
     },
     "autoload": {
         "psr-4": {
-            "ClientZone\\": "src/ClientZone/",
-            "ClientZone\\ui\\": "src/ClientZone/ui/",
-            "ClientZone\\whplugins\\": "src/ClientZone/whplugins/",
-            "ClientZone\\orderplugins\\": "src/ClientZone/orderplugins/",
-            "Test\\ClientZone\\": "tests/src/ClientZone/"
+            "VendorZone\\": "src/VendorZone/",
+            "VendorZone\\ui\\": "src/VendorZone/ui/",
+            "VendorZone\\whplugins\\": "src/VendorZone/whplugins/",
+            "VendorZone\\orderplugins\\": "src/VendorZone/orderplugins/",
+            "Test\\VendorZone\\": "tests/src/VendorZone/"
         }
     },
     "require-dev": {

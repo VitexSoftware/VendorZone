@@ -18,5 +18,5 @@ chdir('/home/vitex/Projects/Spoje.Net/clientzone/src/'); //TODO: relative
 require_once 'includes/config.php';
 require_once 'includes/Init.php';
 
-\Ease\Shared::user(new \ClientZone\User());
-\Ease\Shared::webPage(new namespace ClientZone\ui\WebPage());
+\Ease\Shared::user(new \VendorZone\User());
+\Ease\Shared::webPage(new namespace VendorZone\ui\WebPage());

@@ -1,6 +1,6 @@
 <?php
 
-namespace ClientZone;
+namespace VendorZone;
 
 /**
  * Odhlašovací stránka.

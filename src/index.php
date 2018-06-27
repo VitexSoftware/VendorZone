@@ -1,6 +1,6 @@
 <?php
 
-namespace ClientZone;
+namespace VendorZone;
 
 /**
  * clientzone - Hlavní strana.
@@ -16,7 +16,7 @@ $oPage->addItem(new ui\PageTop(_('clientzone')));
 $mainMenu = $oPage->container->addItem(new ui\MainPageMenu());
 
 switch (get_class($oUser)) {
-    case 'ClientZone\User': //Admin
+    case 'VendorZone\User': //Admin
         $mainMenu->addMenuItem(
             'images/cennik.png', _('Pricelist'), 'adminpricelist.php'
         );
@@ -25,18 +25,6 @@ switch (get_class($oUser)) {
             constant('FLEXIBEE_URL').'/c/'.constant('FLEXIBEE_COMPANY')
         );
 
-        break;
-    case 'ClientZone\Customer': //Customer
-        $mainMenu->addMenuItem(
-            'images/cennik.png', _('Pricelist'), 'pricelist.php'
-        );
-        $mainMenu->addMenuItem(
-            'images/order.svg', _('Order Form'), 'orderform.php'
-        );
-        
-        $oPage->container->addItem(new ui\ToPayItems($oUser));
-
-        
         break;
     case 'Ease\Anonym': //Anonymous
     default:

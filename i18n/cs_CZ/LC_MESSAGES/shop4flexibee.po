@@ -16,383 +16,383 @@ msgstr ""
 "X-Poedit-SearchPath-0: ../src\n"
 "X-Poedit-SearchPathExcluded-0: ../vendor\n"
 
-#: ../src/ClientZone/Customer.php:209
+#: ../src/VendorZone/Customer.php:209
 msgid "missing login"
 msgstr "chybějící login"
 
-#: ../src/ClientZone/Customer.php:214
+#: ../src/VendorZone/Customer.php:214
 msgid "missing password"
 msgstr "chybějící heslo"
 
-#: ../src/ClientZone/Customer.php:225
+#: ../src/VendorZone/Customer.php:225
 #, php-format
 msgid "Multiplete ContactID"
 msgstr "Vícenásobné ID kontaktu"
 
-#: ../src/ClientZone/Customer.php:228
+#: ../src/VendorZone/Customer.php:228
 msgid "Using the first one"
 msgstr "Používám první"
 
-#: ../src/ClientZone/Customer.php:269
+#: ../src/VendorZone/Customer.php:269
 #, php-format
 msgid "Sign in %s all ok"
 msgstr "Přihlšení %s vše ok"
 
-#: ../src/ClientZone/DataGrid.php:197
+#: ../src/VendorZone/DataGrid.php:197
 msgid "Přidat"
 msgstr "Přidat"
 
-#: ../src/ClientZone/DataGrid.php:198 ../src/ClientZone/Engine.php:468
+#: ../src/VendorZone/DataGrid.php:198 ../src/VendorZone/Engine.php:468
 msgid "Modify"
 msgstr "Upravit"
 
-#: ../src/ClientZone/DataGrid.php:199 ../src/ClientZone/Engine.php:466
+#: ../src/VendorZone/DataGrid.php:199 ../src/VendorZone/Engine.php:466
 msgid "Smazat"
 msgstr "Smazat"
 
-#: ../src/ClientZone/DataGrid.php:360 ../src/ClientZone/DataGrid.php:400
-#: ../src/ClientZone/DataGrid.php:438
+#: ../src/VendorZone/DataGrid.php:360 ../src/VendorZone/DataGrid.php:400
+#: ../src/VendorZone/DataGrid.php:438
 msgid "Je třeba označit nějaké řádky"
 msgstr "Je třeba označit nějaké řádky"
 
-#: ../src/ClientZone/DataSource.php:131
+#: ../src/VendorZone/DataSource.php:131
 msgid "Smazáno"
 msgstr "Smazáno"
 
-#: ../src/ClientZone/DataSource.php:138
+#: ../src/VendorZone/DataSource.php:138
 msgid "Záznam byl přidán"
 msgstr "Záznam byl přidán"
 
-#: ../src/ClientZone/DataSource.php:141
+#: ../src/VendorZone/DataSource.php:141
 msgid "Záznam nebyl přidám"
 msgstr "Záznam nebyl přidám"
 
-#: ../src/ClientZone/DataSource.php:149
+#: ../src/VendorZone/DataSource.php:149
 msgid "Záznam byl upraven"
 msgstr "Záznam byl upraven"
 
-#: ../src/ClientZone/DataSource.php:152
+#: ../src/VendorZone/DataSource.php:152
 msgid "Záznam nebyl upravn"
 msgstr "Záznam nebyl upravn"
 
-#: ../src/ClientZone/Engine.php:178
+#: ../src/VendorZone/Engine.php:178
 msgid "Záznam byl uložen"
 msgstr "Záznam byl uložen"
 
-#: ../src/ClientZone/Engine.php:185
+#: ../src/VendorZone/Engine.php:185
 msgid "Záznam nebyl uložen"
 msgstr "Záznam nebyl uložen"
 
-#: ../src/ClientZone/Engine.php:315
+#: ../src/VendorZone/Engine.php:315
 msgid "Chybná hodnota"
 msgstr "Chybná hodnota"
 
-#: ../src/ClientZone/Engine.php:424
+#: ../src/VendorZone/Engine.php:424
 #, php-format
 msgid " %s %s byl smazán "
 msgstr " %s %s byl smazán "
 
-#: ../src/ClientZone/Engine.php:430
+#: ../src/VendorZone/Engine.php:430
 #, php-format
 msgid " %s %s nebyl smazán "
 msgstr " %s %s nebyl smazán "
 
-#: ../src/ClientZone/FlexiBeeStatus.php:39
+#: ../src/VendorZone/FlexiBeeStatus.php:39
 msgid "Zvolená firma neexistuje"
 msgstr ""
 
-#: ../src/ClientZone/FlexiBeeStatus.php:43
+#: ../src/VendorZone/FlexiBeeStatus.php:43
 msgid "Chyba komunikace"
 msgstr "Chyba komunikace"
 
-#: ../src/ClientZone/HookReciever.php:74
+#: ../src/VendorZone/HookReciever.php:74
 #, php-format
 msgid "Change version %s already processed"
 msgstr "Verze změny %s byla již zpracována"
 
-#: ../src/ClientZone/HookReciever.php:105
+#: ../src/VendorZone/HookReciever.php:105
 #, php-format
 msgid "Handler Class %s does not exist"
 msgstr "Třída pro zpracování %s neexistuje"
 
-#: ../src/ClientZone/HookReciever.php:127
+#: ../src/VendorZone/HookReciever.php:127
 msgid "Empty WebHook request"
 msgstr "Webhook vrátil prázdnou odezvu"
 
-#: ../src/ClientZone/HookReciever.php:151
+#: ../src/VendorZone/HookReciever.php:151
 msgid "Last Processed Change ID Saving Failed"
 msgstr "Ukládání posledního zpracovaného ID změny selhalo"
 
-#: ../src/ClientZone/HookReciever.php:155
+#: ../src/VendorZone/HookReciever.php:155
 #, php-format
 msgid "Last Processed Change ID #%s Saved"
 msgstr ""
 
-#: ../src/ClientZone/HookReciever.php:174
+#: ../src/VendorZone/HookReciever.php:174
 msgid "Last Processed Change ID Loading Failed"
 msgstr ""
 
-#: ../src/ClientZone/Order.php:68
+#: ../src/VendorZone/Order.php:68
 msgid "Please wait while our salesman contact you."
 msgstr "Prosíme vyčkejte než vás zkontaktuje náš obchodník"
 
-#: ../src/ClientZone/Order.php:71
+#: ../src/VendorZone/Order.php:71
 msgid "purchase order"
 msgstr "Objednávka služeb"
 
-#: ../src/ClientZone/Order.php:117
+#: ../src/VendorZone/Order.php:117
 msgid "Proforma"
 msgstr "Zálohová faktura"
 
-#: ../src/ClientZone/Order.php:160
+#: ../src/VendorZone/Order.php:160
 msgid "Invoice"
 msgstr "Faktura"
 
-#: ../src/ClientZone/Order.php:202
+#: ../src/VendorZone/Order.php:202
 #, php-format
 msgid "Unhandled type of item"
 msgstr "Neznámý druh položky"
 
-#: ../src/ClientZone/OrderItem.php:126
+#: ../src/VendorZone/OrderItem.php:126
 msgid "Please choose service"
 msgstr "Prosím zvolte službu"
 
-#: ../src/ClientZone/OrderItem.php:141
+#: ../src/VendorZone/OrderItem.php:141
 #, php-format
 msgid "Product with code %s does not exist"
 msgstr "Produkt s kódem %s neexistuje"
 
-#: ../src/ClientZone/OrderItem.php:146
+#: ../src/VendorZone/OrderItem.php:146
 #, php-format
 msgid "Missing product code"
 msgstr "Chybějící kód produktu"
 
-#: ../src/ClientZone/OrderItem.php:227
+#: ../src/VendorZone/OrderItem.php:227
 #, php-format
 msgid "%s added to cart"
 msgstr "%s přidáno do košíku"
 
-#: ../src/ClientZone/OrderPlugin.php:75
+#: ../src/VendorZone/OrderPlugin.php:75
 msgid "Product not specified"
 msgstr "Produkt nebyl zvolen"
 
-#: ../src/ClientZone/OrderPlugin.php:88
+#: ../src/VendorZone/OrderPlugin.php:88
 #, php-format
 msgid "Item %s was settled without action handled in OrderPlugin code"
 msgstr "Položka %s byla zaplacena bez akce v kódu objednávkového pluginu"
 
-#: ../src/ClientZone/ParovacFaktur.php:161
+#: ../src/VendorZone/ParovacFaktur.php:161
 #, php-format
 msgid "Invoice with Euro currency %s"
 msgstr ""
 
-#: ../src/ClientZone/ParovacFaktur.php:168
+#: ../src/VendorZone/ParovacFaktur.php:168
 #, php-format
 msgid "Unknown invoice type: %s %s"
 msgstr "Neznámý druh domény:  %s %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:182
+#: ../src/VendorZone/ParovacFaktur.php:182
 msgid "Invoice found: - overdue?"
 msgstr "Nalezená faktura - přeplatek ?"
 
-#: ../src/ClientZone/ParovacFaktur.php:216
+#: ../src/VendorZone/ParovacFaktur.php:216
 #, fuzzy
 msgid "Faktura za Eura"
 msgstr "Faktura za Eura %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:219
+#: ../src/VendorZone/ParovacFaktur.php:219
 #, php-format
 msgid "Unknown invoice type: %s"
 msgstr "Neznámý druh faktury  %s "
 
-#: ../src/ClientZone/ParovacFaktur.php:241
+#: ../src/VendorZone/ParovacFaktur.php:241
 #, php-format
 msgid "Castecna uhrada - DOBROPIS: prijato: %s ma byt zaplaceno %s"
 msgstr "Castecna uhrada - DOBROPIS: prijato: %s ma byt zaplaceno %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:246
+#: ../src/VendorZone/ParovacFaktur.php:246
 #, php-format
 msgid "Přeplatek - DOBROPIS: prijato: %s ma byt zaplaceno %s"
 msgstr "Přeplatek - DOBROPIS: prijato: %s ma byt zaplaceno %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:258
+#: ../src/VendorZone/ParovacFaktur.php:258
 #, php-format
 msgid "Platba %s  %s byla sparovana s dobropisem %s"
 msgstr "Platba %s  %s byla sparovana s dobropisem %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:284
+#: ../src/VendorZone/ParovacFaktur.php:284
 #, php-format
 msgid "Platba %s  %s byla sparovana s zalohou %s"
 msgstr "Platba %s  %s byla sparovana s zalohou %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:348
+#: ../src/VendorZone/ParovacFaktur.php:348
 #, php-format
 msgid "Částečná úhrada %s"
 msgstr "Částečná úhrada %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:351
+#: ../src/VendorZone/ParovacFaktur.php:351
 #, php-format
 msgid "Vytvoř ZDD: %s"
 msgstr "Vytvoř ZDD: %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:357
+#: ../src/VendorZone/ParovacFaktur.php:357
 #, php-format
 msgid "Přeplatek %s"
 msgstr "Přeplatek %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:377
+#: ../src/VendorZone/ParovacFaktur.php:377
 #, php-format
 msgid "Faktura #%s byla sparovana"
 msgstr "Faktura #%s byla sparovana"
 
-#: ../src/ClientZone/ParovacFaktur.php:381
+#: ../src/VendorZone/ParovacFaktur.php:381
 #, php-format
 msgid "Faktura #%s nebyla sparovana"
 msgstr "Faktura #%s nebyla sparovana"
 
-#: ../src/ClientZone/ParovacFaktur.php:406
+#: ../src/VendorZone/ParovacFaktur.php:406
 #, php-format
 msgid "Castecna uhrada - FAKTURA: prijato: %s ma byt zaplaceno %s"
 msgstr "Castecna uhrada - FAKTURA: prijato: %s ma byt zaplaceno %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:411
+#: ../src/VendorZone/ParovacFaktur.php:411
 #, php-format
 msgid "Přeplatek - FAKTURA: prijato: %s ma byt zaplaceno %s"
 msgstr "Přeplatek - FAKTURA: prijato: %s ma byt zaplaceno %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:424
+#: ../src/VendorZone/ParovacFaktur.php:424
 #, php-format
 msgid "Platba %s  %s byla sparovana s fakturou %s"
 msgstr "Platba %s  %s byla sparovana s fakturou %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:482
+#: ../src/VendorZone/ParovacFaktur.php:482
 #, php-format
 msgid "Faktura %s byla vytvořena z dokladu %s"
 msgstr "Faktura %s byla vytvořena z dokladu %s"
 
-#: ../src/ClientZone/ParovacFaktur.php:551
+#: ../src/VendorZone/ParovacFaktur.php:551
 msgid "Neidentifikovaná platba"
 msgstr "Neidentifikovaná platba"
 
-#: ../src/ClientZone/ParovacFaktur.php:558
+#: ../src/VendorZone/ParovacFaktur.php:558
 msgid "Platba bez faktury"
 msgstr "Platba bez faktury"
 
-#: ../src/ClientZone/ParovacFaktur.php:677
+#: ../src/VendorZone/ParovacFaktur.php:677
 #, php-format
 msgid "Platba pro fakturu %s nebyla dohledána"
 msgstr "Platba pro fakturu %s nebyla dohledána"
 
-#: ../src/ClientZone/Upominac.php:65
+#: ../src/VendorZone/Upominac.php:65
 msgid "Getting clients"
 msgstr "Získávám zákazníky"
 
-#: ../src/ClientZone/Upominac.php:69
+#: ../src/VendorZone/Upominac.php:69
 #, php-format
 msgid "%s Clients Found"
 msgstr "%s Klientů nalezeno"
 
-#: ../src/ClientZone/Upominac.php:70
+#: ../src/VendorZone/Upominac.php:70
 msgid "Getting debts"
 msgstr "Získávám pohledávky"
 
-#: ../src/ClientZone/Upominac.php:92
+#: ../src/VendorZone/Upominac.php:92
 #, php-format
 msgid "%s Debts Found"
 msgstr "%s Pohledávek nalezeno"
 
-#: ../src/ClientZone/Upominac.php:119 ../src/ClientZone/Upominac.php:122
+#: ../src/VendorZone/Upominac.php:119 ../src/VendorZone/Upominac.php:122
 #, php-format
 msgid "Clear %s Remind labels"
 msgstr "Čistím %s štítky upomínek"
 
-#: ../src/ClientZone/Upominac.php:140
+#: ../src/VendorZone/Upominac.php:140
 #, php-format
 msgid "%d clients to remind process"
 msgstr "%d klientů k upomenutí zpracováno"
 
-#: ../src/ClientZone/Upominac.php:146
+#: ../src/VendorZone/Upominac.php:146
 #, php-format
 msgid "(%d / %d) #%s LMS# %s %s "
 msgstr "(%d / %d) #%s LMS# %s %s "
 
-#: ../src/ClientZone/Upominac.php:158
+#: ../src/VendorZone/Upominac.php:158
 #, php-format
 msgid "User %s not present in LMS; cannot set dashboard "
 msgstr "Uživatel %s nemá LMS id; nemohu nastavit dešbord"
 
-#: ../src/ClientZone/Upominac.php:200
+#: ../src/VendorZone/Upominac.php:200
 #, php-format
 msgid "Dashboard for: %d "
 msgstr "Dašbord pro: %d "
 
-#: ../src/ClientZone/Upominac.php:209
+#: ../src/VendorZone/Upominac.php:209
 #, php-format
 msgid "Disconnect for: %d "
 msgstr "Odpojení pro %d "
 
-#: ../src/ClientZone/Upominac.php:239
+#: ../src/VendorZone/Upominac.php:239
 msgid "Invoice locked: skipping process"
 msgstr "Faktura zamknutá přeskakuji zpracování"
 
-#: ../src/ClientZone/Upominac.php:292
+#: ../src/VendorZone/Upominac.php:292
 #, php-format
 msgid "Invoice %s remind %s date saved"
 msgstr "Faktura %s  Datum umomínky %s uloženo"
 
-#: ../src/ClientZone/Upominac.php:295
+#: ../src/VendorZone/Upominac.php:295
 #, php-format
 msgid "Invoice %s remind %s date save failed"
 msgstr "Faktura %s chyba ukládání data upomínky %s"
 
-#: ../src/ClientZone/Upominac.php:301
+#: ../src/VendorZone/Upominac.php:301
 msgid "Remind send disbled"
 msgstr "Odesílání pohledávek zakázáno"
 
-#: ../src/ClientZone/Upominac.php:304
+#: ../src/VendorZone/Upominac.php:304
 #, php-format
 msgid "Remind %d already sent"
 msgstr "Upomínka  %d  byla již odeslána"
 
-#: ../src/ClientZone/Upominac.php:308
+#: ../src/VendorZone/Upominac.php:308
 msgid "No debts to remind"
 msgstr "Žádne pohledávky k upomenutí"
 
-#: ../src/ClientZone/Upominac.php:317
+#: ../src/VendorZone/Upominac.php:317
 #, php-format
 msgid "Invoice %s locked again"
 msgstr "Faktura %s byla znovu uzamknuta"
 
-#: ../src/ClientZone/Upominac.php:320
+#: ../src/VendorZone/Upominac.php:320
 #, php-format
 msgid "Invoice %s locking failed"
 msgstr "Faktura %s chyba znovuzamykání"
 
-#: ../src/ClientZone/Upominac.php:398
+#: ../src/VendorZone/Upominac.php:398
 msgid "UPOMINKA NEBYLA ODESLANA!!!!"
 msgstr ""
 
-#: ../src/ClientZone/Upominac.php:402
+#: ../src/VendorZone/Upominac.php:402
 #, php-format
 msgid "Set Label %s "
 msgstr "Štítek %s  nastaven"
 
-#: ../src/ClientZone/Upominac.php:413
+#: ../src/VendorZone/Upominac.php:413
 #, php-format
 msgid "Set dashboards for %d customers"
 msgstr "Nastavuji dešbord pro %d zákazníků"
 
-#: ../src/ClientZone/Upominac.php:428
+#: ../src/VendorZone/Upominac.php:428
 #, php-format
 msgid "Disconnect %d customers"
 msgstr "Odpojuji %d zákazníků"
 
-#: ../src/ClientZone/Upominac.php:443
+#: ../src/VendorZone/Upominac.php:443
 #, php-format
 msgid "Connect %d customers"
 msgstr "Připojeno %d klientů"
 
-#: ../src/ClientZone/Upominka.php:70
+#: ../src/VendorZone/Upominka.php:70
 #, php-format
 msgid ""
 "%s \n"
@@ -401,538 +401,538 @@ msgid ""
 " celkem za %s,-"
 msgstr ""
 
-#: ../src/ClientZone/Upominka.php:85
+#: ../src/VendorZone/Upominka.php:85
 #, php-format
 msgid "Klient %s nema email - HELPDESK RESIT %s !!!"
 msgstr ""
 
-#: ../src/ClientZone/User.php:111 ../src/ClientZone/User.php:116
-#: ../src/ClientZone/User.php:186
+#: ../src/VendorZone/User.php:111 ../src/VendorZone/User.php:116
+#: ../src/VendorZone/User.php:186
 msgid "Delete"
 msgstr "Smazat"
 
-#: ../src/ClientZone/User.php:112
+#: ../src/VendorZone/User.php:112
 #, php-format
 msgid "Are you sure %s ?"
 msgstr "Jste si jistý  %s ?"
 
-#: ../src/ClientZone/User.php:188
-#: ../src/ClientZone/ui/AdminPricelist.php:72
+#: ../src/VendorZone/User.php:188
+#: ../src/VendorZone/ui/AdminPricelist.php:72
 msgid "Edit"
 msgstr "Upravit"
 
-#: ../src/ClientZone/WebHookHandler.php:129
-#: ../src/ClientZone/WebHookHandler.php:138
+#: ../src/VendorZone/WebHookHandler.php:129
+#: ../src/VendorZone/WebHookHandler.php:138
 msgid "No Update Action Defined"
 msgstr "Akce při aktualizaci nebyla definována"
 
-#: ../src/ClientZone/WebHookHandler.php:147
+#: ../src/VendorZone/WebHookHandler.php:147
 msgid "No Delete Action Defined"
 msgstr "Akce při smazání nebyla definována"
 
-#: ../src/ClientZone/ZalohyZeSmluvDoPohledavek.php:142
+#: ../src/VendorZone/ZalohyZeSmluvDoPohledavek.php:142
 #, php-format
 msgid "Pohledávka %d vytvořena"
 msgstr ""
 
-#: ../src/ClientZone/ZalohyZeSmluvDoPohledavek.php:150
+#: ../src/VendorZone/ZalohyZeSmluvDoPohledavek.php:150
 #, php-format
 msgid "Bylo vygenerováno %s ostatních pohledávek z %s zálohových faktur"
 msgstr ""
 
-#: ../src/ClientZone/ZalohyZeSmluvDoPohledavek.php:165
-#: ../src/ClientZone/ZalohyZeSmluvDoZavazku.php:165
+#: ../src/VendorZone/ZalohyZeSmluvDoPohledavek.php:165
+#: ../src/VendorZone/ZalohyZeSmluvDoZavazku.php:165
 #, php-format
 msgid "Nepodařilo se smazat zálohovou fakturu %s"
 msgstr ""
 
-#: ../src/ClientZone/ZalohyZeSmluvDoPohledavek.php:169
+#: ../src/VendorZone/ZalohyZeSmluvDoPohledavek.php:169
 msgid "Zálohové faktury převedené na pohledávky byly smazány"
 msgstr ""
 
-#: ../src/ClientZone/ZalohyZeSmluvDoZavazku.php:142
+#: ../src/VendorZone/ZalohyZeSmluvDoZavazku.php:142
 #, php-format
 msgid "Závazek %d vytvořen"
 msgstr ""
 
-#: ../src/ClientZone/ZalohyZeSmluvDoZavazku.php:150
+#: ../src/VendorZone/ZalohyZeSmluvDoZavazku.php:150
 #, php-format
 msgid "Bylo vygenerováno %s ostatních závazků z %s zálohových faktur"
 msgstr ""
 
-#: ../src/ClientZone/ZalohyZeSmluvDoZavazku.php:169
+#: ../src/VendorZone/ZalohyZeSmluvDoZavazku.php:169
 msgid "Zálohové faktury převedené na závazky byly smazány"
 msgstr ""
 
-#: ../src/ClientZone/orderplugins/Common.php:37
+#: ../src/VendorZone/orderplugins/Common.php:37
 msgid "Common item"
 msgstr "Běžná pložka"
 
-#: ../src/ClientZone/orderplugins/Common.php:57
+#: ../src/VendorZone/orderplugins/Common.php:57
 msgid "Product Code"
 msgstr "Kód produktu"
 
-#: ../src/ClientZone/orderplugins/Common.php:57
+#: ../src/VendorZone/orderplugins/Common.php:57
 msgid "ANTENA_2ODB_OUTDOOR"
 msgstr "ANTENA_2ODB_OUTDOOR"
 
-#: ../src/ClientZone/orderplugins/Common.php:58
+#: ../src/VendorZone/orderplugins/Common.php:58
 msgid "Product code from our pricelist"
 msgstr "Kód produktu z naší nabídky"
 
-#: ../src/ClientZone/orderplugins/Common.php:61
+#: ../src/VendorZone/orderplugins/Common.php:61
 msgid "Items count"
 msgstr "počet položek"
 
-#: ../src/ClientZone/orderplugins/Common.php:61
+#: ../src/VendorZone/orderplugins/Common.php:61
 msgid "Amount requested"
 msgstr "Požadované množství"
 
-#: ../src/ClientZone/orderplugins/Common.php:64
+#: ../src/VendorZone/orderplugins/Common.php:64
 msgid "Note for stuff"
 msgstr "Poznámka pro personál"
 
-#: ../src/ClientZone/orderplugins/Common.php:65
+#: ../src/VendorZone/orderplugins/Common.php:65
 msgid "ASAP Please"
 msgstr "Rychle prosím"
 
-#: ../src/ClientZone/orderplugins/Common.php:65
+#: ../src/VendorZone/orderplugins/Common.php:65
 msgid "Your kind words about ordered item"
 msgstr "Vaše poznámka ka objednávané položce"
 
-#: ../src/ClientZone/orderplugins/Common.php:107
+#: ../src/VendorZone/orderplugins/Common.php:107
 #, php-format
 msgid "Producet with code %s does not exist"
 msgstr "Produkt s kódem %s neexistuje"
 
-#: ../src/ClientZone/ui/AddressContactsLinks.php:37
+#: ../src/VendorZone/ui/AddressContactsLinks.php:37
 msgid "New Contact"
 msgstr "Nový kontakt"
 
-#: ../src/ClientZone/ui/AddressForm.php:27
+#: ../src/VendorZone/ui/AddressForm.php:27
 msgid "Code"
 msgstr "Kód"
 
-#: ../src/ClientZone/ui/AddressForm.php:29
-#: ../src/ClientZone/ui/CartForm.php:36
-#: ../src/ClientZone/ui/KontaktForm.php:27
-#: ../src/ClientZone/ui/UserForm.php:27 ../src/createaccount.php:139
+#: ../src/VendorZone/ui/AddressForm.php:29
+#: ../src/VendorZone/ui/CartForm.php:36
+#: ../src/VendorZone/ui/KontaktForm.php:27
+#: ../src/VendorZone/ui/UserForm.php:27 ../src/createaccount.php:139
 #: ../src/newcustomer.php:161
 msgid "Name"
 msgstr "Jméno"
 
-#: ../src/ClientZone/ui/AddressForm.php:32
+#: ../src/VendorZone/ui/AddressForm.php:32
 msgid "Email address is empty"
 msgstr "Emailová adresa je prázdná"
 
-#: ../src/ClientZone/ui/AddressForm.php:36
-#: ../src/ClientZone/ui/KontaktForm.php:31
-#: ../src/ClientZone/ui/UserForm.php:31 ../src/admpasswrcvr.php:70
+#: ../src/VendorZone/ui/AddressForm.php:36
+#: ../src/VendorZone/ui/KontaktForm.php:31
+#: ../src/VendorZone/ui/UserForm.php:31 ../src/admpasswrcvr.php:70
 #: ../src/custmpassrecv.php:78
 msgid "Email"
 msgstr "Email"
 
-#: ../src/ClientZone/ui/AddressForm.php:42
-#: ../src/ClientZone/ui/ColumnsForm.php:102
-#: ../src/ClientZone/ui/KontaktForm.php:48
-#: ../src/ClientZone/ui/UserForm.php:38
+#: ../src/VendorZone/ui/AddressForm.php:42
+#: ../src/VendorZone/ui/ColumnsForm.php:102
+#: ../src/VendorZone/ui/KontaktForm.php:48
+#: ../src/VendorZone/ui/UserForm.php:38
 #, fuzzy
 msgid "Uložit"
 msgstr "Uložit"
 
-#: ../src/ClientZone/ui/AdminPricelist.php:43
-#: ../src/ClientZone/ui/MainMenu.php:81
-#: ../src/ClientZone/ui/MainMenu.php:97
-#: ../src/ClientZone/ui/Pricelist.php:43 ../src/pricelist.php:13
+#: ../src/VendorZone/ui/AdminPricelist.php:43
+#: ../src/VendorZone/ui/MainMenu.php:81
+#: ../src/VendorZone/ui/MainMenu.php:97
+#: ../src/VendorZone/ui/Pricelist.php:43 ../src/pricelist.php:13
 msgid "Pricelist"
 msgstr "Ceník"
 
-#: ../src/ClientZone/ui/AdminPricelist.php:45
-#: ../src/ClientZone/ui/Pricelist.php:45
+#: ../src/VendorZone/ui/AdminPricelist.php:45
+#: ../src/VendorZone/ui/Pricelist.php:45
 #, php-format
 msgid "%s items found"
 msgstr "%s položek nalezeno"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:44
-#: ../src/ClientZone/ui/BootstrapMenu.php:64
+#: ../src/VendorZone/ui/BootstrapMenu.php:44
+#: ../src/VendorZone/ui/BootstrapMenu.php:64
 msgid "Settings"
 msgstr "Nastavení"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:53
-#: ../src/ClientZone/ui/BootstrapMenu.php:74 ../src/changecustpw.php:91
+#: ../src/VendorZone/ui/BootstrapMenu.php:53
+#: ../src/VendorZone/ui/BootstrapMenu.php:74 ../src/changecustpw.php:91
 #: ../src/changepassword.php:89
 msgid "Password change"
 msgstr "Změna hesla"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:54
-#: ../src/ClientZone/ui/PageBottom.php:54 ../src/about.php:15
+#: ../src/VendorZone/ui/BootstrapMenu.php:54
+#: ../src/VendorZone/ui/PageBottom.php:54 ../src/about.php:15
 #: ../src/about.php:19
 msgid "About"
 msgstr "O aplikaci"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:56
-#: ../src/ClientZone/ui/BootstrapMenu.php:76
+#: ../src/VendorZone/ui/BootstrapMenu.php:56
+#: ../src/VendorZone/ui/BootstrapMenu.php:76
 msgid "Sign Out"
 msgstr "Odhlášení"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:69
-#: ../src/ClientZone/ui/BootstrapMenu.php:88
-#: ../src/ClientZone/ui/CartForm.php:30
+#: ../src/VendorZone/ui/BootstrapMenu.php:69
+#: ../src/VendorZone/ui/BootstrapMenu.php:88
+#: ../src/VendorZone/ui/CartForm.php:30
 msgid "Cart"
 msgstr "Košík"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:96
-#: ../src/ClientZone/ui/BootstrapMenu.php:103
-#: ../src/ClientZone/ui/FlexiBeeLoginForm.php:24 ../src/adminlogin.php:47
+#: ../src/VendorZone/ui/BootstrapMenu.php:96
+#: ../src/VendorZone/ui/BootstrapMenu.php:103
+#: ../src/VendorZone/ui/FlexiBeeLoginForm.php:24 ../src/adminlogin.php:47
 #: ../src/admpasswrcvr.php:78 ../src/custmpassrecv.php:88
 #: ../src/customerlogin.php:35 ../src/flexibeelogin.php:16
 msgid "Sign In"
 msgstr "Přihlášení"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:99
-#: ../src/ClientZone/ui/FlexiBeeLoginForm.php:20
-#: ../src/ClientZone/ui/FlexiBeeLoginForm.php:22
-#: ../src/ClientZone/ui/KontaktForm.php:37
+#: ../src/VendorZone/ui/BootstrapMenu.php:99
+#: ../src/VendorZone/ui/FlexiBeeLoginForm.php:20
+#: ../src/VendorZone/ui/FlexiBeeLoginForm.php:22
+#: ../src/VendorZone/ui/KontaktForm.php:37
 msgid "Login"
 msgstr "Přihlašovací jméno"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:100
-#: ../src/ClientZone/ui/KontaktForm.php:39 ../src/adminlogin.php:67
+#: ../src/VendorZone/ui/BootstrapMenu.php:100
+#: ../src/VendorZone/ui/KontaktForm.php:39 ../src/adminlogin.php:67
 #: ../src/admpasswrcvr.php:43 ../src/changecustpw.php:65
 #: ../src/changepassword.php:66 ../src/custmpassrecv.php:43
 #: ../src/customerlogin.php:56
 msgid "Password"
 msgstr "Heslo"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:102
+#: ../src/VendorZone/ui/BootstrapMenu.php:102
 msgid "Remeber me"
 msgstr "Pamatuj si mne"
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:104 ../src/createaccount.php:130
+#: ../src/VendorZone/ui/BootstrapMenu.php:104 ../src/createaccount.php:130
 #: ../src/createaccount.php:132
 msgid "Registrace"
 msgstr ""
 
-#: ../src/ClientZone/ui/BootstrapMenu.php:122
+#: ../src/VendorZone/ui/BootstrapMenu.php:122
 msgid "Click to hide messages"
 msgstr "Klikněte pro skrytí zpráv"
 
-#: ../src/ClientZone/ui/CartForm.php:31
+#: ../src/VendorZone/ui/CartForm.php:31
 msgid "Cart contents"
 msgstr "Obsah košíku"
 
-#: ../src/ClientZone/ui/CartForm.php:35
-#: ../src/ClientZone/ui/ProductEditor.php:51
+#: ../src/VendorZone/ui/CartForm.php:35
+#: ../src/VendorZone/ui/ProductEditor.php:51
 msgid "Image"
 msgstr "Obrázek"
 
-#: ../src/ClientZone/ui/CartForm.php:37
+#: ../src/VendorZone/ui/CartForm.php:37
 msgid "Price"
 msgstr "Cena"
 
-#: ../src/ClientZone/ui/CartForm.php:38
+#: ../src/VendorZone/ui/CartForm.php:38
 msgid "Count"
 msgstr "Počet"
 
-#: ../src/ClientZone/ui/CartForm.php:39
-#: ../src/ClientZone/ui/Pillbox.php:56
+#: ../src/VendorZone/ui/CartForm.php:39
+#: ../src/VendorZone/ui/Pillbox.php:56
 msgid "Remove"
 msgstr "Odstranit"
 
-#: ../src/ClientZone/ui/CartForm.php:55
+#: ../src/VendorZone/ui/CartForm.php:55
 msgid "Cash desk"
 msgstr "Pokladna"
 
-#: ../src/ClientZone/ui/CartForm.php:56
+#: ../src/VendorZone/ui/CartForm.php:56
 msgid "Order now"
 msgstr "Objednej nyní"
 
-#: ../src/ClientZone/ui/CartForm.php:60 ../src/cart.php:14
+#: ../src/VendorZone/ui/CartForm.php:60 ../src/cart.php:14
 msgid "Cart is empty"
 msgstr "Košík je prázdný"
 
-#: ../src/ClientZone/ui/ColumnsForm.php:112
+#: ../src/VendorZone/ui/ColumnsForm.php:112
 msgid "Uložit a zpět na přehled"
 msgstr ""
 
-#: ../src/ClientZone/ui/ColumnsForm.php:121
+#: ../src/VendorZone/ui/ColumnsForm.php:121
 msgid "Uložit a další"
 msgstr ""
 
-#: ../src/ClientZone/ui/DownloadInvoiceButton.php:21
+#: ../src/VendorZone/ui/DownloadInvoiceButton.php:21
 #, php-format
 msgid "Download Your %s"
 msgstr "Stáhněte svou %s"
 
-#: ../src/ClientZone/ui/FlexiBeeLoginForm.php:21
+#: ../src/VendorZone/ui/FlexiBeeLoginForm.php:21
 msgid "your email address in most of cases"
 msgstr "větsinou vaše emailová adresa"
 
-#: ../src/ClientZone/ui/FlexiBeeLoginForm.php:23
+#: ../src/VendorZone/ui/FlexiBeeLoginForm.php:23
 msgid "Password you recivied by email"
 msgstr "Heslo které jste obdžel mailem"
 
-#: ../src/ClientZone/ui/FlexiBeeLoginForm.php:29
+#: ../src/VendorZone/ui/FlexiBeeLoginForm.php:29
 msgid "Please enter your Login and Password"
 msgstr "Prosím zadej jméno a heslo"
 
-#: ../src/ClientZone/ui/InvoicesOfAddresButton.php:26
+#: ../src/VendorZone/ui/InvoicesOfAddresButton.php:26
 msgid "Customer Invoices"
 msgstr "Faktury Zákazníka"
 
-#: ../src/ClientZone/ui/KontaktForm.php:29
-#: ../src/ClientZone/ui/UserForm.php:29 ../src/createaccount.php:140
+#: ../src/VendorZone/ui/KontaktForm.php:29
+#: ../src/VendorZone/ui/UserForm.php:29 ../src/createaccount.php:140
 msgid "Příjmení"
 msgstr ""
 
-#: ../src/ClientZone/ui/KontaktForm.php:33
+#: ../src/VendorZone/ui/KontaktForm.php:33
 msgid "Phone"
 msgstr "Pevná linka"
 
-#: ../src/ClientZone/ui/KontaktForm.php:35
+#: ../src/VendorZone/ui/KontaktForm.php:35
 msgid "Cell"
 msgstr "Mobilní číslo"
 
-#: ../src/ClientZone/ui/LinkToFlexiBeeButton.php:25
+#: ../src/VendorZone/ui/LinkToFlexiBeeButton.php:25
 msgid "Open in FlexiBee"
 msgstr "Otevřít ve FlexiBee"
 
-#: ../src/ClientZone/ui/MainMenu.php:79
+#: ../src/VendorZone/ui/MainMenu.php:79
 msgid "Proposal"
 msgstr "Nabídka"
 
-#: ../src/ClientZone/ui/MainMenu.php:85
+#: ../src/VendorZone/ui/MainMenu.php:85
 msgid "Users"
 msgstr "Uživatelé"
 
-#: ../src/ClientZone/ui/MainMenu.php:87
+#: ../src/VendorZone/ui/MainMenu.php:87
 msgid "New user"
 msgstr "Nový uživatel"
 
-#: ../src/ClientZone/ui/MainMenu.php:88
+#: ../src/VendorZone/ui/MainMenu.php:88
 msgid "User overview"
 msgstr "Přehled uživatelů"
 
-#: ../src/ClientZone/ui/MainMenu.php:94 ../src/customerorders.php:34
+#: ../src/VendorZone/ui/MainMenu.php:94 ../src/customerorders.php:34
 msgid "Orders"
 msgstr "Objednávky"
 
-#: ../src/ClientZone/ui/MainMenu.php:96
+#: ../src/VendorZone/ui/MainMenu.php:96
 msgid "New order"
 msgstr "Nová objednávka"
 
-#: ../src/ClientZone/ui/MainMenu.php:98
+#: ../src/VendorZone/ui/MainMenu.php:98
 msgid "My orders"
 msgstr "Mé objednávky"
 
-#: ../src/ClientZone/ui/NavBarSearchBox.php:39
+#: ../src/VendorZone/ui/NavBarSearchBox.php:39
 msgid "Hledání"
 msgstr ""
 
-#: ../src/ClientZone/ui/NavBarSearchBox.php:45
+#: ../src/VendorZone/ui/NavBarSearchBox.php:45
 msgid "Close"
 msgstr "Zavřít"
 
-#: ../src/ClientZone/ui/NavBarSearchBox.php:49
+#: ../src/VendorZone/ui/NavBarSearchBox.php:49
 msgid "Search"
 msgstr "Hledání"
 
-#: ../src/ClientZone/ui/OrderFormHtml.php:36
+#: ../src/VendorZone/ui/OrderFormHtml.php:36
 msgid "Service Requested"
 msgstr "Požadovaná služba"
 
-#: ../src/ClientZone/ui/OrderFormHtml.php:38
+#: ../src/VendorZone/ui/OrderFormHtml.php:38
 msgid "Enter details"
 msgstr "Vlož detaily"
 
-#: ../src/ClientZone/ui/OrderFormHtml.php:44
-#: ../src/ClientZone/ui/Pricelist.php:73
+#: ../src/VendorZone/ui/OrderFormHtml.php:44
+#: ../src/VendorZone/ui/Pricelist.php:73
 msgid "Order Now"
 msgstr "Objednej nyní"
 
-#: ../src/ClientZone/ui/OrderFormHtml.php:56
+#: ../src/VendorZone/ui/OrderFormHtml.php:56
 msgid "Please choose your service"
 msgstr "Prosím zvolte svou službu"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:34
+#: ../src/VendorZone/ui/OrderListingItem.php:34
 msgid "Settled"
 msgstr "Uhrazeno"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:41
+#: ../src/VendorZone/ui/OrderListingItem.php:41
 msgid "Done"
 msgstr "Hotovo"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:44
+#: ../src/VendorZone/ui/OrderListingItem.php:44
 msgid "Open"
 msgstr "Otevřít"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:58
-#: ../src/ClientZone/ui/OrderListingItem.php:59
+#: ../src/VendorZone/ui/OrderListingItem.php:58
+#: ../src/VendorZone/ui/OrderListingItem.php:59
 msgid "Show"
 msgstr "Zobraz"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:62
-#: ../src/ClientZone/ui/OrderListingItem.php:63
+#: ../src/VendorZone/ui/OrderListingItem.php:62
+#: ../src/VendorZone/ui/OrderListingItem.php:63
 msgid "Download"
 msgstr "Stažení"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:66
-#: ../src/ClientZone/ui/OrderListingItem.php:67
+#: ../src/VendorZone/ui/OrderListingItem.php:66
+#: ../src/VendorZone/ui/OrderListingItem.php:67
 msgid "Send"
 msgstr "Odešli"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:72
-#: ../src/ClientZone/ui/OrderListingItem.php:73
+#: ../src/VendorZone/ui/OrderListingItem.php:72
+#: ../src/VendorZone/ui/OrderListingItem.php:73
 msgid "ISDOC"
 msgstr "ISDOC"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:79
-#: ../src/ClientZone/ui/OrderListingItem.php:80 ../src/index.php:28
+#: ../src/VendorZone/ui/OrderListingItem.php:79
+#: ../src/VendorZone/ui/OrderListingItem.php:80 ../src/index.php:28
 msgid "FlexiBee"
 msgstr "FlexiBee"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:83
-#: ../src/ClientZone/ui/OrderListingItem.php:85
+#: ../src/VendorZone/ui/OrderListingItem.php:83
+#: ../src/VendorZone/ui/OrderListingItem.php:85
 msgid "Company"
 msgstr "Společnost"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:108
+#: ../src/VendorZone/ui/OrderListingItem.php:108
 #, php-format
 msgid " %s days to due"
 msgstr " %s dní do splatnosti"
 
-#: ../src/ClientZone/ui/OrderListingItem.php:111
+#: ../src/VendorZone/ui/OrderListingItem.php:111
 #, php-format
 msgid " %s days after due"
 msgstr " %s dní po splatnosti"
 
-#: ../src/ClientZone/ui/PageBottom.php:29
+#: ../src/VendorZone/ui/PageBottom.php:29
 msgid "Other products"
 msgstr ""
 
-#: ../src/ClientZone/ui/PageBottom.php:45
+#: ../src/VendorZone/ui/PageBottom.php:45
 msgid "Hosted by"
 msgstr "Hostuje"
 
-#: ../src/ClientZone/ui/PageBottom.php:52
+#: ../src/VendorZone/ui/PageBottom.php:52
 msgid "More"
 msgstr "Více"
 
-#: ../src/ClientZone/ui/PageBottom.php:56
+#: ../src/VendorZone/ui/PageBottom.php:56
 msgid "Source code"
 msgstr "Zdrojové kódy"
 
-#: ../src/ClientZone/ui/PageBottom.php:58
+#: ../src/VendorZone/ui/PageBottom.php:58
 msgid "Issues"
 msgstr "Podpora"
 
-#: ../src/ClientZone/ui/PageBottom.php:61
+#: ../src/VendorZone/ui/PageBottom.php:61
 msgid "Version"
 msgstr "Verze"
 
-#: ../src/ClientZone/ui/Pillbox.php:67 ../src/admpasswrcvr.php:78
+#: ../src/VendorZone/ui/Pillbox.php:67 ../src/admpasswrcvr.php:78
 #: ../src/custmpassrecv.php:87
 msgid "and"
 msgstr "a"
 
-#: ../src/ClientZone/ui/Pillbox.php:68
+#: ../src/VendorZone/ui/Pillbox.php:68
 msgid "more ..."
 msgstr "více ..."
 
-#: ../src/ClientZone/ui/Pillbox.php:71
+#: ../src/VendorZone/ui/Pillbox.php:71
 msgid "add item"
 msgstr "přidat položku"
 
-#: ../src/ClientZone/ui/Pillbox.php:74
+#: ../src/VendorZone/ui/Pillbox.php:74
 msgid "Toggle dropdown"
 msgstr "Zobrazit nabídku"
 
-#: ../src/ClientZone/ui/ProductEditor.php:45
+#: ../src/VendorZone/ui/ProductEditor.php:45
 msgid "Thumbnail"
 msgstr "Náhled"
 
-#: ../src/ClientZone/ui/ProductEditor.php:45
+#: ../src/VendorZone/ui/ProductEditor.php:45
 msgid "Small 150x150px"
 msgstr "Malý 150x150px"
 
-#: ../src/ClientZone/ui/ProductEditor.php:52
+#: ../src/VendorZone/ui/ProductEditor.php:52
 msgid "Large image"
 msgstr "Velký obrázek"
 
-#: ../src/ClientZone/ui/ProductEditor.php:59
+#: ../src/VendorZone/ui/ProductEditor.php:59
 msgid "Save"
 msgstr "Ulož"
 
-#: ../src/ClientZone/ui/ProductEditor.php:97
+#: ../src/VendorZone/ui/ProductEditor.php:97
 #, php-format
 msgid "%s File %s was attached"
 msgstr "%s soubor %s byl přiložen"
 
-#: ../src/ClientZone/ui/RecordsWithLabel.php:28
+#: ../src/VendorZone/ui/RecordsWithLabel.php:28
 #, php-format
 msgid "%s records with label %s"
 msgstr "%s záznamů se štítkem %s nalezeno"
 
-#: ../src/ClientZone/ui/RightsForm.php:21 ../src/user.php:29
+#: ../src/VendorZone/ui/RightsForm.php:21 ../src/user.php:29
 msgid "Uživatel"
 msgstr ""
 
-#: ../src/ClientZone/ui/SettleForm.php:24
+#: ../src/VendorZone/ui/SettleForm.php:24
 msgid "Zákazník"
 msgstr ""
 
-#: ../src/ClientZone/ui/SettleForm.php:25
+#: ../src/VendorZone/ui/SettleForm.php:25
 msgid "Jaroslav Vomáčka"
 msgstr ""
 
-#: ../src/ClientZone/ui/SettleForm.php:26
+#: ../src/VendorZone/ui/SettleForm.php:26
 msgid "Po zadání dvou písmen budou nabídnuty možnosti"
 msgstr ""
 
-#: ../src/ClientZone/ui/SettleForm.php:30
+#: ../src/VendorZone/ui/SettleForm.php:30
 msgid "Faktura"
 msgstr ""
 
-#: ../src/ClientZone/ui/SettleForm.php:31
+#: ../src/VendorZone/ui/SettleForm.php:31
 msgid "Nejprve vyber Zákazníka"
 msgstr ""
 
-#: ../src/ClientZone/ui/SettleForm.php:35
+#: ../src/VendorZone/ui/SettleForm.php:35
 msgid "Kasa"
 msgstr ""
 
-#: ../src/ClientZone/ui/SettleForm.php:40
+#: ../src/VendorZone/ui/SettleForm.php:40
 msgid "Celkem"
 msgstr ""
 
-#: ../src/ClientZone/ui/SettleForm.php:45
+#: ../src/VendorZone/ui/SettleForm.php:45
 #, fuzzy
 msgid "Popis"
 msgstr "popis"
 
-#: ../src/ClientZone/ui/TWBSwitch.php:28 ../src/adresar.php:53
+#: ../src/VendorZone/ui/TWBSwitch.php:28 ../src/adresar.php:53
 #: ../src/kontakt.php:59 ../src/user.php:40
 msgid "Yes"
 msgstr "Ano"
 
-#: ../src/ClientZone/ui/TWBSwitch.php:31 ../src/adresar.php:51
+#: ../src/VendorZone/ui/TWBSwitch.php:31 ../src/adresar.php:51
 #: ../src/kontakt.php:57 ../src/user.php:39
 msgid "No"
 msgstr "Ne"
 
-#: ../src/ClientZone/ui/UserForm.php:33
+#: ../src/VendorZone/ui/UserForm.php:33
 msgid "Přihlašovací jméno"
 msgstr ""
 
-#: ../src/ClientZone/ui/WebPage.php:86
+#: ../src/VendorZone/ui/WebPage.php:86
 msgid "Please sign in as admin first"
 msgstr "Nejprve se prosím přihlaš jako admin"
 
-#: ../src/ClientZone/ui/WebPage.php:102
+#: ../src/VendorZone/ui/WebPage.php:102
 msgid "Please sign in as user first"
 msgstr "Přihlaš se nejprve jako uživatel"
 
-#: ../src/ClientZone/ui/ZewlScoreLabel.php:33
+#: ../src/VendorZone/ui/ZewlScoreLabel.php:33
 msgid "Zewl score"
 msgstr "Známka bonity"
 
@@ -953,8 +953,8 @@ msgid "Please enter your login creditials"
 msgstr "Prosím zadejte své přihlašovací údaje"
 
 #: ../src/adminlogin.php:57
-msgid "Welcome to ClientZone administration"
-msgstr "Vítejte do informačního systému ClientZone"
+msgid "Welcome to VendorZone administration"
+msgstr "Vítejte do informačního systému VendorZone"
 
 #: ../src/adminlogin.php:61 ../src/customerlogin.php:49 ../src/index.php:47
 msgid "Sign in"
@@ -1255,7 +1255,7 @@ msgid "Sign in first please"
 msgstr "Nejprve se prosím přihlašte"
 
 #: ../src/customerlogin.php:45
-msgid "Welcome to ClientZone"
+msgid "Welcome to VendorZone"
 msgstr "Vítejte do Shopu pro FlexiBee"
 
 #: ../src/customerlogin.php:55

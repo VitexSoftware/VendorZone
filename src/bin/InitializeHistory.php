@@ -7,7 +7,7 @@
  * @copyright  2017 VitexSoftware v.s.cz
  */
 
-namespace ClientZone;
+namespace VendorZone;
 
 define('EASE_APPNAME', 'HistoryInitializer');
 $inc = 'includes/Init.php';
@@ -16,7 +16,7 @@ if (!file_exists($inc)) {
 }
 require_once $inc;
 
-$prehistoric = new ClientZone\WebHookHandler(null, ['operation' => 'import']);
+$prehistoric = new VendorZone\WebHookHandler(null, ['operation' => 'import']);
 
 if ($prehistoric->dblink->queryToValue('SELECT COUNT(*) FROM '.$prehistoric->getMyTable())) {
     $prehistoric->addStatusMessage(sprintf(_('History table %s is not empty'),

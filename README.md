@@ -1,25 +1,25 @@
-FlexiBee ClientZone
+FlexiBee VendorZone
 ===================
 
-![ClientZone Logo](https://raw.githubusercontent.com/VitexSoftware/ClientZone/master/src/images/logo.png "Project Logo")
+![VendorZone Logo](https://raw.githubusercontent.com/VitexSoftware/VendorZone/master/src/images/logo.png "Project Logo")
 
-Klientská zóna vašeho FlexiBee. Aplikace taktéž umožňuje objednávání položek ceníku FlexiBee a následnou reakci na příchozí platbu
+Adminská zóna vašeho FlexiBee. Aplikace taktéž umožňuje objednávání položek ceníku FlexiBee a následnou reakci na příchozí platbu
 
 Administrátor označí v ceníku nabízené položky štítkem ESHOP a ACTIVE. Poté jsou tyto nabízeny k obejdnání:
 
-![Nabídka](https://raw.githubusercontent.com/VitexSoftware/ClientZone/master/doc/ClientZone-screenshot.png "Snímek obrazovky aplikace")
+![Nabídka](https://raw.githubusercontent.com/VitexSoftware/VendorZone/master/doc/VendorZone-screenshot.png "Snímek obrazovky aplikace")
 
 Po volbě položky je možné vyplnit detaily:
 
-![Formulář](https://raw.githubusercontent.com/VitexSoftware/ClientZone/master/doc/ClientZone-order-item-form.png "Formulář položky objednávky")
+![Formulář](https://raw.githubusercontent.com/VitexSoftware/VendorZone/master/doc/VendorZone-order-item-form.png "Formulář položky objednávky")
 
 Objednané položky jsou schraňovány v košíku:
 
-![Potvrzení](https://raw.githubusercontent.com/VitexSoftware/ClientZone/master/doc/ClientZone-confirm-screenshot.png "Potvrzení obejdnávky")
+![Potvrzení](https://raw.githubusercontent.com/VitexSoftware/VendorZone/master/doc/VendorZone-confirm-screenshot.png "Potvrzení obejdnávky")
 
 Výsledkem je buď zálohová faktura, nebo objednávka ve FlexiBee:
 
-![Objednáno](https://raw.githubusercontent.com/VitexSoftware/ClientZone/master/doc/ClientZone-order-done.png "Dokončená objednávka")
+![Objednáno](https://raw.githubusercontent.com/VitexSoftware/VendorZone/master/doc/VendorZone-order-done.png "Dokončená objednávka")
 
 
 Vlastnosti
@@ -52,30 +52,18 @@ Vlastnosti
  * Nabízeným položkám je možné přiřadit obrázek a jeho náhled. 
  * Zobrazení přehledu objednávek s možností je odeslat zákazníkovi mailem
 
-**Funkce pro Zákazníka**
-
- * Do aplikace je možné se zaregistrovat
- * Je možné si změnit heslo
- * Je možné si necha obnovit zapomenuté heslo
- * Je možné si objednat z nabízených produktů is možností jim vyplnit požadované parametry
- * Je možné si objednat libovolný produkt dle kódu
- * Objednané položky se leží do objednání v košíku uloženém v session
- * Po objednání je jsou z položek vytvářeny zálohová faktura a objednávka.
- * Klient vidí historii svých objednávek a jejich stav
- * Klient si může faktury/objednávky zobrazit jako pdf, stahnout jako isdoc či nechat zaslat mailem
-
 
 Moduly pro zpracování změn evidencí
 ===================================
 
-Načítají se ze složky ClientZone\whplugins např **FakturaPrijata.php** a jsou vždy potomky třídy **\ClientZone\WebHookHandler**
+Načítají se ze složky VendorZone\whplugins např **FakturaPrijata.php** a jsou vždy potomky třídy **\VendorZone\WebHookHandler**
 
 V modulu je možné předefinovat metody create() update() a delete() které se vykonávají při patřičné změně.
 
 Moduly pro zpracování objednaných položek
 =========================================
 
-Načítají se ze složky ClientZone\orderplugins např **DomainOrg.php** a jsou vždy potomky třídy **\ClientZone\OrderPlugin**
+Načítají se ze složky VendorZone\orderplugins např **DomainOrg.php** a jsou vždy potomky třídy **\VendorZone\OrderPlugin**
 
 Plugin může mít předefinovány tyto metody:
 
@@ -117,7 +105,7 @@ Pokud jej nenajde tak jej hledá v kořenu webu ()
 
 ```json
 {                                                                                                                                          
-    "EASE_APPNAME": "ClientZone",                                                                                                      
+    "EASE_APPNAME": "VendorZone",                                                                                                      
     "EASE_LOGGER": "syslog|console",                                                                                                       
     "SEND_MAILS_FROM": "shop@syourdomain.net",                                                                                                
     "EMAIL_FROM": "shop@yourdomain.net",                                                                                                                       
@@ -149,7 +137,7 @@ Informace pro vývojáře:
  * Aplikace je vyvíjena pod v NetBeans pod linuxem.
  * Dokumentace ApiGen se nalézá ve složce doc
  * Složka testing obsahuje testovací sady Selenium a PHPUnit a strukturu DB
- * Aktuální zdrojové kody: **git@github.com:VitexSoftware/ClientZone.git**
+ * Aktuální zdrojové kody: **git@github.com:VitexSoftware/VendorZone.git**
 
 Instalace databáze
 ------------------

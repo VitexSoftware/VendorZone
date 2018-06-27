@@ -19,10 +19,10 @@
     },
     "autoload": {
         "psr-4": {
-            "ClientZone\\": "ClientZone/",
-            "ClientZone\\ui\\": "ClientZone/ui/",
-            "ClientZone\\whplugins\\": "ClientZone/whplugins/",
-            "ClientZone\\orderplugins\\": "ClientZone/orderplugins/"
+            "VendorZone\\": "VendorZone/",
+            "VendorZone\\ui\\": "VendorZone/ui/",
+            "VendorZone\\whplugins\\": "VendorZone/whplugins/",
+            "VendorZone\\orderplugins\\": "VendorZone/orderplugins/"
         }
     },
     "repositories": [

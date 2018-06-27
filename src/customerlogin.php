@@ -1,6 +1,6 @@
 <?php
 
-namespace ClientZone;
+namespace VendorZone;
 
 /**
  * Přihlašovací stránka.
@@ -40,14 +40,14 @@ $loginRow   = new \Ease\TWB\Row();
 $infoColumn = $loginRow->addItem(new \Ease\TWB\Col(4));
 
 $infoBlock = $infoColumn->addItem(new \Ease\TWB\Well(new \Ease\Html\ImgTag('images/password.png')));
-$infoBlock->addItem(_('Welcome to ClientZone'));
+$infoBlock->addItem(_('Welcome to VendorZone'));
 
 $loginColumn = $loginRow->addItem(new \Ease\TWB\Col(4));
 
 $submit = new \Ease\TWB\SubmitButton(_('Sign in'), 'success');
 
 $loginPanel = new \Ease\TWB\Panel(new \Ease\Html\ImgTag('images/clientzone-logo.svg',
-        'ClientZone', ['style' => 'width:100px']), 'success', null,
+        'VendorZone', ['style' => 'width:100px']), 'success', null,
     $submit);
 $loginPanel->addItem(new \Ease\TWB\FormGroup(_('Username'),
         new \Ease\Html\InputTextTag('email', $login), 'name@domain.tld',

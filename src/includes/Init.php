@@ -6,11 +6,11 @@
  * @copyright  2017 VitexSoftware v.s.cz
  */
 
-namespace ClientZone;
+namespace VendorZone;
 
 require_once '../vendor/autoload.php';
 if (!defined('EASE_APPNAME')) {
-    define('EASE_APPNAME', 'ClientZone');
+    define('EASE_APPNAME', 'VendorZone');
 }
 
 \Ease\Shared::initializeGetText(constant('EASE_APPNAME'), 'en_US', '../i18n');

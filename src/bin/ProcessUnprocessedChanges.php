@@ -7,7 +7,7 @@
  * @copyright  2017 VitexSoftware v.s.cz
  */
 
-namespace ClientZone;
+namespace VendorZone;
 
 define('EASE_APPNAME', 'HistoryInitializer');
 $inc = 'includes/Init.php';
@@ -16,7 +16,7 @@ if (!file_exists($inc)) {
 }
 require_once $inc;
 
-$hooker                   = new ClientZone\HookReciever();
+$hooker                   = new VendorZone\HookReciever();
 $hooker->defaultUrlParams = ['limit' => 1000];
 $hooker->debug            = false;
 
