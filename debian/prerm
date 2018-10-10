@@ -1,5 +1,5 @@
 #!/bin/sh
-# prerm script for clientzone
+# prerm script for vendorzone
 #
 # see: dh_installdeb(1)
 
@@ -19,7 +19,7 @@ set -e
 
 case "$1" in
     remove|deconfigure)
-    a2disconf clientzone
+    a2disconf vendorzone
     ;;
 
     upgrade)

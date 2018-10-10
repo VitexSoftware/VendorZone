@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for clientzone
+# postrm script for vendorzone
 set -e
 
 # summary of how this script can be called:
@@ -17,17 +17,17 @@ set -e
 
 case "$1" in
        purge|remove|failed-upgrade|abort-install|abort-upgrade|disappear)
-        if [ -f /usr/share/clientzone/composer.lock ] ; then
-            echo    postrm -rfv /usr/share/clientzone
-            rm -rfv /usr/share/clientzone
+        if [ -f /usr/share/vendorzone/composer.lock ] ; then
+            echo    postrm -rfv /usr/share/vendorzone
+            rm -rfv /usr/share/vendorzone
         fi
 
-        if [ -f /var/lib/clientzone/autoload.php  ] ; then
-            echo    postrm -rfv /var/lib/clientzone/
-            rm -rfv /var/lib/clientzone/
+        if [ -f /var/lib/vendorzone/autoload.php  ] ; then
+            echo    postrm -rfv /var/lib/vendorzone/
+            rm -rfv /var/lib/vendorzone/
         fi
 
-        rm -rfv /var/cache/clientzone/ 
+        rm -rfv /var/cache/vendorzone/ 
 
         ;;
 

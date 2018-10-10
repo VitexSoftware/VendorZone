@@ -1,0 +1,3 @@
+/etc/apache2/conf-available/vendorzone.conf
+/etc/avahi/services/vendorzone.service
+/etc/vendorzone/config.json

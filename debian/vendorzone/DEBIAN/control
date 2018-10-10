@@ -1,0 +1,11 @@
+Package: vendorzone
+Version: 0.1
+Architecture: all
+Maintainer: Vítězslav Dvořák <vitex@arachne.cz>
+Installed-Size: 4289
+Depends: debconf (>= 0.5) | debconf-2.0, ease-framework (>= 1.5), libjs-font-awesome, php5-curl | php-curl, libjs-fuelux, flexipeehp (>= 1.9), php-mail-mime, php-phinx, locales-all, poppler-utils, libjs-bootstrap-switch, php-cli, composer
+Section: web
+Priority: optional
+Homepage: https://github.com/VitexSoftware/VendorZone
+Description: Shop for FlexiBee
+ Vendor Frontend for czech economic system FlexiBee
