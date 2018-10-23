@@ -75,7 +75,7 @@ if (!$success) {
     }
 } else {
     $columnII->addItem(new \Ease\TWB\Well([_('Please check your mailbox for new password')
-      , ' ' . _('and') . ' ', new \Ease\TWB\LinkButton('customerlogin.php', _('Sign In'), 'success')]));
+      , ' ' . _('and') . ' ', new \Ease\TWB\LinkButton('login.php', _('Sign In'), 'success')]));
 }
 
 $oPage->addItem(new ui\PageBottom());
