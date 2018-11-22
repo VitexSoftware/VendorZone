@@ -46,7 +46,7 @@ if ($login) {
 
 $oPage->addItem(new ui\PageTop(_('Sign In')));
 
-$loginFace = new \Ease\Html\Div(null, ['id' => 'LoginFace']);
+$loginFace = new \Ease\Html\DivTag(null, ['id' => 'LoginFace']);
 
 $oPage->container->addItem($loginFace);
 

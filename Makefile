@@ -13,6 +13,12 @@ clean:
 	rm -rf debian/vendorzone 
 	rm -rf debian/*.substvars debian/*.log debian/*.debhelper debian/files debian/debhelper-build-stamp *.deb
 
+phinx:
+	vendor/bin/phinx migrate -c ./phinx-adapter.php
+
+newphinx:
+	read -p "Enter CamelCase migration name : " migname ; phinx create $$migname -c ./phinx-adapter.php
+
 db:
 	phinx migrate
 

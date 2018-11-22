@@ -54,10 +54,10 @@ if ($emailTo) {
 
 $oPage->addItem(new ui\PageTop(_('Lost password recovery')));
 
-$row = $oPage->container->addItem(new \Ease\Html\Div(null, ['class' => 'row']));
-$columnI = $row->addItem(new \Ease\Html\Div(null, ['class' => 'col-md-4']));
-$columnII = $row->addItem(new \Ease\Html\Div(null, ['class' => 'col-md-4']));
-$columnIII = $row->addItem(new \Ease\Html\Div(null, ['class' => 'col-md-4']));
+$row = $oPage->container->addItem(new \Ease\Html\DivTag(null, ['class' => 'row']));
+$columnI = $row->addItem(new \Ease\Html\DivTag(null, ['class' => 'col-md-4']));
+$columnII = $row->addItem(new \Ease\Html\DivTag(null, ['class' => 'col-md-4']));
+$columnIII = $row->addItem(new \Ease\Html\DivTag(null, ['class' => 'col-md-4']));
 
 if (!$success) {
     $columnI->addItem(new \Ease\Html\H1Tag('Lost password'));

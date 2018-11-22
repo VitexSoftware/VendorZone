@@ -78,7 +78,7 @@ class MainMenu extends \Ease\Html\NavTag
 //                );
                 $nav->addDropDownMenu('<img width=30 src=images/order.svg> '._('Proposal'),
                     [
-                        'adminpricelist.php' => \Ease\TWB\Part::GlyphIcon('th-list').' '._('Pricelist'),
+                    'adminpricelist.php' => \Ease\TWB\Part::GlyphIcon('th-list').' '._('Pricelist'),
                     ]
                 );
 
@@ -89,13 +89,16 @@ class MainMenu extends \Ease\Html\NavTag
                     '' => '',
                         ], $this->getMenuList(\Ease\Shared::user(), 'user'))
                 );
+
+                $nav->addMenuItem(new \Ease\Html\ATag('clients.php', _('Clients')));
+
                 break;
             case 'VendorZone\Customer': //Customer
                 $nav->addDropDownMenu('<img width=30 src=images/order.svg> '._('Orders'),
                     [
-                        'orderform.php' => \Ease\TWB\Part::GlyphIcon('plus').' '._('New order'),
-                        'pricelist.php' => \Ease\TWB\Part::GlyphIcon('th-list').' '._('Pricelist'),
-                        'myorders.php' => \Ease\TWB\Part::GlyphIcon('list').'&nbsp;'._('My orders')]
+                    'orderform.php' => \Ease\TWB\Part::GlyphIcon('plus').' '._('New order'),
+                    'pricelist.php' => \Ease\TWB\Part::GlyphIcon('th-list').' '._('Pricelist'),
+                    'myorders.php' => \Ease\TWB\Part::GlyphIcon('list').'&nbsp;'._('My orders')]
                 );
 
                 break;

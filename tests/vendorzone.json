@@ -7,15 +7,11 @@
     "SUPPRESS_EMAILS": "true",                                                                                                                              
     "SEND_INFO_TO": "office@yourdomain.net",                                                                                                                       
     "DB_HOST": "localhost",                                                                                                                             
-    "DB_USERNAME": "clientzone",                                                                                                                            
-    "DB_PASSWORD": "clientzone",                                                                                                                            
-    "DB_DATABASE": "clientzone",                                                                                                                            
+    "DB_USERNAME": "vendorzone",                                                                                                                            
+    "DB_PASSWORD": "vendorzone",                                                                                                                            
+    "DB_DATABASE": "vendorzone",                                                                                                                            
     "DB_PORT": "3306",
     "DB_TYPE": "mysql",                                                                                                                                 
-    "FLEXIBEE_URL": "https://vitexsoftware.flexibee.eu",
-    "FLEXIBEE_LOGIN": "vitex",
-    "FLEXIBEE_PASSWORD": "Sod1orp",
-    "xFLEXIBEE_COMPANY": "vitex_software",
     "FLEXIBEE_COMPANY": "demo",
     "DEBUG": "false"
 }

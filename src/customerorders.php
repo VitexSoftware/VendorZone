@@ -28,7 +28,8 @@ $fetcher = new \FlexiPeeHP\FakturaVydana();
 $oPage->container->addItem(new ui\OrdersListing($fetcher,
     ['firma' => $customer], _('Invoices')));
 
-$fetcher2 = new \FlexiPeeHP\FlexiBeeRO(null, ['evidence' => 'objednavka-prijata']);
+$fetcher2 = new \FlexiPeeHP\FlexiBeeRO(null,
+    ['evidence' => 'objednavka-prijata']);
 
 $oPage->container->addItem(new ui\OrdersListing($fetcher2,
     ['firma' => $customer], _('Orders')));

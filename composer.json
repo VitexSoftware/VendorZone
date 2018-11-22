@@ -12,7 +12,6 @@
         "php": ">= 5.5.9",
         "spoje.net/flexipeehp": "dev-master",
         "vitexsoftware/ease-framework": "dev-master",
-        "robmorgan/phinx": "^0.6.4",
         "vitexsoftware/ease-bricks": "dev-master"
     },
     "autoload": {
@@ -27,6 +26,7 @@
     "require-dev": {
         "phpunit/php-token-stream": "~1.2",
         "phpunit/phpunit": "5.3.*",
-        "phpunit/phpunit-skeleton-generator": "*"
+        "phpunit/phpunit-skeleton-generator": "*",
+        "robmorgan/phinx": "0.10.6"
     }
 }

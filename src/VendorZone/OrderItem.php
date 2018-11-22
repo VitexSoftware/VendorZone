@@ -13,7 +13,7 @@ namespace VendorZone;
  *
  * @author vitex
  */
-class OrderItem extends FlexiBeeEngine
+class OrderItem extends \Ease\Sand
 {
     /**
      * Customer

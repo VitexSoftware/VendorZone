@@ -15,10 +15,11 @@ namespace VendorZone;
  */
 class HookReciever extends \FlexiPeeHP\Changes
 {
+
+    use \Ease\SQL\Orm;
     public $format        = 'json';
     public $changes       = null;
     public $globalVersion = null;
-    public $myTable       = 'changesapi';
 
     /**
      * Posledni zpracovana verze
@@ -32,6 +33,7 @@ class HookReciever extends \FlexiPeeHP\Changes
     public function __construct()
     {
         parent::__construct();
+        $this->takemyTable('changesapi');
         $this->lastProcessedVersion = $this->getLastProcessedVersion();
     }
 

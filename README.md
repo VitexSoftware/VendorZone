@@ -100,7 +100,7 @@ Pro instalaci je třeba:
 Konfigurace:
 ------------
 
-Aplikace se snaží načíst konfigurační soubor z /etc/clientzonee/config.json
+Aplikace se snaží načíst konfigurační soubor z /etc/flexibee/clientzone.json
 Pokud jej nenajde tak jej hledá v kořenu webu ()
 
 ```json
@@ -118,10 +118,6 @@ Pokud jej nenajde tak jej hledá v kořenu webu ()
     "DB_DATABASE": "clientzone",                                                                                                                            
     "DB_PORT": "3306",                                                                                                                                  
     "DB_TYPE": "mysql",                                                                                                                                 
-    "FLEXIBEE_URL": "https://demo.flexibee.eu:5434",
-    "FLEXIBEE_LOGIN": "winstorm",
-    "FLEXIBEE_PASSWORD": "winstrom",
-    "FLEXIBEE_COMPANY": "demo",
 }
 ```
 
@@ -130,6 +126,18 @@ Pokud jej nenajde tak jej hledá v kořenu webu ()
   * SEND_INFO_TO    - Komu se posílá info o nových registracích a objednávkách
 
 Adminská oprávnění pro uživatele: **a:1:{s:5:"admin";s:4:"true";}** 
+
+K jakému FlexiBee se VendorZone připojuje je specifikováno v souboru /etc/flexibee/client.json
+
+```json
+{
+    "FLEXIBEE_URL": "https://demo.flexibee.eu:5434",
+    "FLEXIBEE_LOGIN": "winstorm",
+    "FLEXIBEE_PASSWORD": "winstrom",
+    "FLEXIBEE_COMPANY": "demo"
+}
+```
+
 
 Informace pro vývojáře:
 -----------------------
