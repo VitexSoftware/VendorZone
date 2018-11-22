@@ -2,7 +2,6 @@
 /debian/clientzone/
 /debian/clientzone.debhelper.log
 /debian/clientzone.substvars
-/src/includes/config.php
 /build-stamp
 /testing/PHPUnit/build/
 /composer.lock

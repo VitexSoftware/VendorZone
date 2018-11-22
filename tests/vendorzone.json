@@ -12,6 +12,5 @@
     "DB_DATABASE": "vendorzone",                                                                                                                            
     "DB_PORT": "3306",
     "DB_TYPE": "mysql",                                                                                                                                 
-    "FLEXIBEE_COMPANY": "demo",
     "DEBUG": "false"
 }
