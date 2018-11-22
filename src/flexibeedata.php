@@ -27,7 +27,7 @@ if (is_array($filter)) {
 unset($_REQUEST['class']);
 unset($_REQUEST['_']);
 
-$dataRaw = $engine->getColumnsFromFlexiBee('*', $_REQUEST);
+$dataRaw = $engine->getColumnsFromFlexiBee('*', $filter);
 
 header('Content-Type: application/json');
 echo json_encode(['data' => $dataRaw, 'recordsTotal' => count($dataRaw)]);

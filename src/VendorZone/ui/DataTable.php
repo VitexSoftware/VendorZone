@@ -72,16 +72,15 @@ class DataTable extends \Ease\Html\TableTag
     public function __construct($engine = null, $properties = array())
     {
         $this->engine     = $engine;
-        $this->filter = array_merge($engine->defaultUrlParams,
-            $this->filter);
-        $this->ajax2db    = $this->dataSourceURI($engine);
+        $this->filter     = array_merge($engine->defaultUrlParams, $this->filter);
         $this->columnDefs = $engine->getOnlineColumnsInfo();
+        $this->columns    = $this->prepareColumns($this->columnDefs);
+        $this->ajax2db    = $this->dataSourceURI($engine);
 
         parent::__construct(null,
             ['class' => 'display', 'style' => 'width: 100%']);
 
-        $gridTagID     = $this->setTagId($engine->getObjectName());
-        $this->columns = $this->prepareColumns($this->columnDefs);
+        $gridTagID = $this->setTagId($engine->getObjectName());
 
         \Ease\JQuery\Part::jQueryze();
 
@@ -193,7 +192,7 @@ $.fn.dataTable.ext.buttons.filter'.$gridTagID.' = {
                     $column['type'] = 'text';
                     break;
                 default :
-                    $this->addStatusMessage('Uknown column '.$columnRaw['name'].' type '.$columnRaw['type']);
+//                    $this->addStatusMessage('Uknown column '.$columnRaw['name'].' type '.$columnRaw['type']);
                     $column['type'] = 'text';
                     break;
             }
@@ -230,9 +229,8 @@ $.fn.dataTable.ext.buttons.filter'.$gridTagID.' = {
     public function dataSourceURI($engine)
     {
         $conds = ['class' => get_class($engine)];
-        if (is_array($this->filter)) {
             $conds['filter'] = $this->filter;
-        }
+        $conds['filter']['detail'] = 'custom:'.implode(',',array_keys($this->columns));
         return $this->ajax2db.'?'.http_build_query($conds);
     }
 

@@ -71,7 +71,7 @@ $loginPanel->body->setTagCss(['margin' => '20px']);
 $loginColumn->addItem($loginPanel);
 
 $passRecoveryColumn = $loginRow->addItem(new \Ease\TWB\Col(4,
-        new \Ease\TWB\LinkButton('admpasswrcvr.php',
+        new \Ease\TWB\LinkButton('passwordrecovery.php',
             '<i class="fa fa-key"></i>
 '._('Lost password recovery'), 'warning')));
 
