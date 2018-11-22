@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Spodek Stránky Webu.
+ * vendorzone - Spodek Stránky Webu.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
@@ -13,7 +13,7 @@ class PageBottom extends \Ease\Html\FooterTag
 
     public function __construct($content = null)
     {
-        $composer = '/usr/share/clientzone/composer.json';
+        $composer = '/usr/share/vendorzone/composer.json';
         if (!file_exists($composer)) {
             $composer = '../composer.json';
         }

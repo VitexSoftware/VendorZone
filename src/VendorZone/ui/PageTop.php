@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Vršek stránky.
+ * vendorzone - Vršek stránky.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

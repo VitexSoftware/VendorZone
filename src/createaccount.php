@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Vytvoření účtu.
+ * vendorzone - Vytvoření účtu.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
@@ -110,7 +110,7 @@ if ($oPage->isPosted()) {
             $email = $oPage->addItem(new \Ease\Mailer($newOUser->getDataValue('email'),
                     _('Potvrzení registrace')));
             $email->setMailHeaders(['From' => EMAIL_FROM]);
-            $email->addItem(new \Ease\Html\DivTag("Právě jste byl/a zaregistrován/a do Aplikace clientzone s těmito přihlašovacími údaji:\n"));
+            $email->addItem(new \Ease\Html\DivTag("Právě jste byl/a zaregistrován/a do Aplikace vendorzone s těmito přihlašovacími údaji:\n"));
             $email->addItem(new \Ease\Html\DivTag(' Login: '.$newOUser->GetUserLogin()."\n"));
             $email->addItem(new \Ease\Html\DivTag(' Heslo: '.$_POST['password']."\n"));
             $email->send();

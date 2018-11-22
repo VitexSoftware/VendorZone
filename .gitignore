@@ -10,3 +10,4 @@
 /debian/debhelper-build-stamp
 /.vagrant/
 /debian/clientzone.postrm.debhelper
+/debian/vendorzone/

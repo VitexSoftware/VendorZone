@@ -1,7 +1,7 @@
 <?php
 
 /**
- * clientzone - Přehled záznamu.
+ * vendorzone - Přehled záznamu.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

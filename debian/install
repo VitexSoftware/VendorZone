@@ -9,7 +9,7 @@ src/js/*.js		usr/share/vendorzone/js
 #src/js/msdropdown/*.js	usr/share/vendorzone/js/msdropdown
 #src/img/*		usr/share/vendorzone/img
 src/images/*		usr/share/vendorzone/images
-src/config.json 	etc/vendorzone
+tests/vendorzone.json	etc/flexibee
 src/includes/Init.php	usr/share/vendorzone/includes
 src/VendorZone/*.php	usr/share/vendorzone/VendorZone
 src/VendorZone/ui/*.php	usr/share/vendorzone/VendorZone/ui

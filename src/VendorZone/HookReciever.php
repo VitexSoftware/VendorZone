@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Příjemce WebHooku
+ * vendorzone - Příjemce WebHooku
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

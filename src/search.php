@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Search.
+ * vendorzone - Search.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

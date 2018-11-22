@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Vraci score uzivatele
+ * vendorzone - Vraci score uzivatele
  *
  * @author     Vítězslav Dvořák <info@vitexsofware.cz>
  * @copyright  2017 VitexSoftware v.s.cz

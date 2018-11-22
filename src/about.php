@@ -27,9 +27,9 @@ $listing   = $infoBlock->addItem(new \Ease\Html\UlTag());
 if (file_exists('../README.md')) {
     $listing->addItem(implode('<br>', file('../README.md')));
 } else {
-    if (file_exists('/usr/share/doc/clientzone/README.md')) {
+    if (file_exists('/usr/share/doc/vendorzone/README.md')) {
         $listing->addItem(implode('<br>',
-                file('/usr/share/doc/clientzone/README.md')));
+                file('/usr/share/doc/vendorzone/README.md')));
     }
 }
 

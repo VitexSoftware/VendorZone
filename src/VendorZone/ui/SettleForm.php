@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Formulář úhrady faktury.
+ * vendorzone - Formulář úhrady faktury.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

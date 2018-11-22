@@ -1,7 +1,7 @@
 #!/usr/bin/php -f
 <?php
 /**
- * clientzone - Odeslání kontrolního mailu
+ * vendorzone - Odeslání kontrolního mailu
  *
  * @author     Vítězslav Dvořák <info@vitexsofware.cz>
  * @copyright  2017 VitexSoftware v.s.cz

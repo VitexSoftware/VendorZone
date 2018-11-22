@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Formulář příjm/výdaje pokladny.
+ * vendorzone - Formulář příjm/výdaje pokladny.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

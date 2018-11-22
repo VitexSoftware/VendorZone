@@ -60,7 +60,7 @@ $loginColumn = $loginRow->addItem(new \Ease\TWB\Col(4));
 
 $submit = new \Ease\TWB\SubmitButton(_('Sign in'), 'success');
 
-$loginPanel = new \Ease\TWB\Panel(new \Ease\Html\ImgTag('images/clientzone-logo.svg',
+$loginPanel = new \Ease\TWB\Panel(new \Ease\Html\ImgTag('images/vendorzone-logo.svg',
         'VendorZone', ['style' => 'width: 100px']), 'danger', null, $submit);
 $loginPanel->addItem(new \Ease\TWB\FormGroup(_('Username'),
         new \Ease\Html\InputTextTag('login', $login)));

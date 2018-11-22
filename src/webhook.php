@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - WebHook Acceptor.
+ * vendorzone - WebHook Acceptor.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

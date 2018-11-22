@@ -1,7 +1,7 @@
 <?php
 
 /**
- * clientzone - GateKeeper
+ * vendorzone - GateKeeper
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

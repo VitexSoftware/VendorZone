@@ -3,7 +3,7 @@
 namespace VendorZone\ui;
 
 /**
- * clientzone - OrderForm class
+ * vendorzone - OrderForm class
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

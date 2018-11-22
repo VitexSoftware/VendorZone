@@ -9,15 +9,9 @@ WEBUSER=${RET}
 
 touch /etc/vendorzone/config.json
 
-#Replace Key Value in Config File
-function replace {
-    cfg="/etc/vendorzone/config.php"
-    sed -i "/${1}/c\define('${1}', '${2}');" $cfg
-#    echo $cfg ${1} ${2}
-}
 
 replaceJSON() {
-    cfg="/etc/vendorzone/config.json"
+    cfg="/etc/flexibee/vendorzone.json"
     sed -i "/${1}/c\        \"${1}\": \"${2}\"," $cfg
     echo $cfg ${1} ${2}
 }
@@ -30,11 +24,7 @@ function replaceYML {
 #    echo $cfg ${1} ${2}
 }
 
-listOfConfigs="FLEXIBEE_URL
-FLEXIBEE_LOGIN
-FLEXIBEE_PASSWORD
-FLEXIBEE_COMPANY
-DB_TYPE
+listOfConfigs="DB_TYPE
 DB_HOST
 DB_PORT
 DB_USERNAME

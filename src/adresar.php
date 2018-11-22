@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Stránka firmy/adresy.
+ * vendorzone - Stránka firmy/adresy.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

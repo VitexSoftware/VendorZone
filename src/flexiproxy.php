@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Proxy pro lokální JS.
+ * vendorzone - Proxy pro lokální JS.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

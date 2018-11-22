@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Konvertor zálohových faktur do závazků.
+ * vendorzone - Konvertor zálohových faktur do závazků.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

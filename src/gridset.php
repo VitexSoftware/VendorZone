@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Persistence nastavení datagridu.
+ * vendorzone - Persistence nastavení datagridu.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
