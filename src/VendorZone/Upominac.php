@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Reminder class
+ * vendorzone - Reminder class
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

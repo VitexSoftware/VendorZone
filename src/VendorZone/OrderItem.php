@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Objednavka.
+ * vendorzone - Objednavka.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
@@ -13,7 +13,7 @@ namespace VendorZone;
  *
  * @author vitex
  */
-class OrderItem extends FlexiBeeEngine
+class OrderItem extends \Ease\Sand
 {
     /**
      * Customer

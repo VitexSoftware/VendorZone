@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Hlavní strana.
+ * vendorzone - Hlavní strana.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
@@ -28,7 +28,8 @@ $fetcher = new \FlexiPeeHP\FakturaVydana();
 $oPage->container->addItem(new ui\OrdersListing($fetcher,
     ['firma' => $customer], _('Invoices')));
 
-$fetcher2 = new \FlexiPeeHP\FlexiBeeRO(null, ['evidence' => 'objednavka-prijata']);
+$fetcher2 = new \FlexiPeeHP\FlexiBeeRO(null,
+    ['evidence' => 'objednavka-prijata']);
 
 $oPage->container->addItem(new ui\OrdersListing($fetcher2,
     ['firma' => $customer], _('Orders')));

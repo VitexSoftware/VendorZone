@@ -3,7 +3,7 @@
 namespace VendorZone\ui;
 
 /**
- * clientzone - OrderForm class
+ * vendorzone - OrderForm class
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
@@ -49,7 +49,7 @@ class OrderFormHtml extends \Ease\TWB\Form
     /**
      * Product list select
      * 
-     * @return \Ease\Html\Select
+     * @return \Ease\Html\SelectTag
      */
     public function productList()
     {
@@ -63,8 +63,7 @@ class OrderFormHtml extends \Ease\TWB\Form
           'PROVOZVOIPTELEFONU' => _('VoIP'),
           'KREDIT_DOMENY' => _('Domain Credit'),
          */
-        return new \Ease\Html\Select('service', $serviceMenu,
+        return new \Ease\Html\SelectTag('service', $serviceMenu,
             $this->order->getDataValue('service'));
     }
-
 }

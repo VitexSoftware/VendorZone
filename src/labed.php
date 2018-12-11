@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Label Switchech engine
+ * vendorzone - Label Switchech engine
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

@@ -8,7 +8,7 @@ $oPage->onlyForLogged('customerlogin.php',
     _('Please sign in to finish your order'));
 
 /**
- * clientzone - Hlavní strana.
+ * vendorzone - Hlavní strana.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

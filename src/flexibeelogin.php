@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Vytvoření účtu ve FlexiBee.
+ * vendorzone - Vytvoření účtu ve FlexiBee.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

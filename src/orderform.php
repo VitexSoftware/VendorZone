@@ -5,7 +5,7 @@ namespace VendorZone;
 require_once 'includes/Init.php';
 
 /**
- * clientzone - Objednávkový formulář
+ * vendorzone - Objednávkový formulář
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

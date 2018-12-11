@@ -1,5 +1,6 @@
-vendorzone (0.1) UNRELEASED; urgency=medium
+vendorzone (0.3) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
+  * Code Cleanup
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 17 Jul 2017 16:37:59 +0200
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Fri, 23 Nov 2018 00:09:03 +0100

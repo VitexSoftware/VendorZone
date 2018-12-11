@@ -29,30 +29,6 @@ Type: string
 Default: vendorzone
 Description: Heslo pro připojení k databázi
 
-Template: vendorzone/FLEXIBEE_COMPANY
-Type: string
-Default: demo
-Description: Výchozí firma pro operace s API
- Zatím bude stačit pouze jedna firma
-
-Template: vendorzone/FLEXIBEE_URL
-Type: string
-Default: https://demo.flexibee.eu
-Description: Url k API flexibee
- Adresa kde běží FlexiBee API
-
-Template: vendorzone/FLEXIBEE_LOGIN
-Type: string
-Default: winstrom
-Description: Login pro připojení k API Flexibee
- Login přiděluje správce FlexiBee
-
-Template: vendorzone/FLEXIBEE_PASSWORD
-Type: string
-Default: winstrom
-Description: Heslo pro připojení k API Flexibee
- Heslo přiděluje správce FlexiBee
-
 Template: vendorzone/WEBUSER
 Type: string
 Default: www-data

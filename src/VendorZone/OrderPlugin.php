@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - OrderPlugin parent.
+ * vendorzone - OrderPlugin parent.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

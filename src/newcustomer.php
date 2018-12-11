@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Vytvoření účtu ve FlexiBee.
+ * vendorzone - Vytvoření účtu ve FlexiBee.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
@@ -96,13 +96,13 @@ if ($oPage->isPosted()) {
                 $email = $oPage->addItem(new \Ease\Mailer($newOUser->getDataValue('email'),
                     _('Sign On info')));
                 $email->setMailHeaders(['From' => constant('SEND_MAILS_FROM')]);
-                $email->addItem(new \Ease\Html\H1Tag(_('clientzone Account')));
+                $email->addItem(new \Ease\Html\H1Tag(_('vendorzone Account')));
                 $email->addItem(new \Ease\Html\DivTag(' Login: '.$emailAddress."\n"));
                 $email->addItem(new \Ease\Html\DivTag(' Password: '.$password."\n"));
                 $email->send();
 
                 $email = $oPage->addItem(new \Ease\Mailer(constant('SEND_INFO_TO'),
-                    sprintf(_('New clientzone account: %s'),
+                    sprintf(_('New vendorzone account: %s'),
                         $newOUser->getUserLogin())));
                 $email->setMailHeaders(['From' => constant('SEND_MAILS_FROM')]);
                 $email->addItem(new \Ease\Html\DivTag(_("New Customer").':\n'));
@@ -179,7 +179,7 @@ $regForm->addItem(new \Ease\Html\DivTag(
     new \Ease\Html\InputSubmitTag('Register', _('Singn On'),
     ['title' => _('Finish'), 'class' => 'btn btn-success'])));
 
-$oPage->columnIII->addItem(new \Ease\Html\ImgTag('images/clientzone-logo.svg',
+$oPage->columnIII->addItem(new \Ease\Html\ImgTag('images/vendorzone-logo.svg',
     constant('EASE_APPNAME')));
 
 if (isset($_POST)) {

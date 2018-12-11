@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Hlavní menu.
+ * vendorzone - Hlavní menu.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
@@ -99,6 +99,9 @@ class MainMenu extends \Ease\Html\NavTag
                     '' => '',
                         ], $this->getMenuList(\Ease\Shared::user(), 'user'))
                 );
+
+                $nav->addMenuItem(new \Ease\Html\ATag('clients.php', _('Clients')));
+
                 break;
             case 'VendorZone\Customer': //Customer
                 $nav->addDropDownMenu('<img width=30 src=images/order.svg> '._('Orders'),

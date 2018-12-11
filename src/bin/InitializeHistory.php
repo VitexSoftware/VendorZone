@@ -1,7 +1,7 @@
 #!/usr/bin/php -f
 <?php
 /**
- * clientzone - Odeslání Upomínek
+ * vendorzone - Odeslání Upomínek
  *
  * @author     Vítězslav Dvořák <info@vitexsofware.cz>
  * @copyright  2017 VitexSoftware v.s.cz

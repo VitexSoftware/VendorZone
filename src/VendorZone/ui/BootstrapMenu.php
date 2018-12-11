@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - Stránka Webu.
+ * vendorzone - Stránka Webu.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz
@@ -28,7 +28,7 @@ class BootstrapMenu extends \Ease\TWB\Navbar
                                 $properties = null)
     {
         parent::__construct('Menu',
-            new \Ease\Html\ImgTag('images/clientzone-logo.svg',
+            new \Ease\Html\ImgTag('images/vendorzone-logo.svg',
             constant('EASE_APPNAME'),
             ['class' => 'img-rounded', 'height' => 24, 'width' => 24]),
             ['class' => 'navbar-fixed-top']);

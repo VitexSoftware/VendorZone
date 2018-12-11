@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Vytvoření účtu.
+ * vendorzone - Vytvoření účtu.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

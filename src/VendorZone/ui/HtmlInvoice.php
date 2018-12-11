@@ -18,10 +18,10 @@ class HtmlInvoice extends \Ease\Container
     public function __construct($invoice)
     {
         $pdfFile = $invoice->downloadInFormat('pdf',
-            '/var/lib/clientzone/tmp/');
+            '/var/lib/vendorzone/tmp/');
         if (strlen($pdfFile)) {
             \Gufy\PdfToHtml\Config::set('pdftohtml.output',
-                '/var/lib/clientzone/tmp');
+                '/var/lib/vendorzone/tmp');
             $pdf = new \Gufy\PdfToHtml\Pdf($pdfFile);
             preg_match("/<body[^>]*>(.*?)<\/body>/is", $pdf->html(),
                 $initialContent);

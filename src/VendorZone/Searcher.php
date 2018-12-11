@@ -8,7 +8,7 @@
 
 namespace VendorZone;
 
-class Searcher extends FlexiBeeEngine
+class Searcher extends \Ease\Sand
 {
     /**
      * Prohledávaná tabulka.

@@ -3,7 +3,7 @@
 namespace VendorZone;
 
 /**
- * clientzone - Zdroj dat datagridu.
+ * vendorzone - Zdroj dat datagridu.
  *
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2017 VitexSoftware v.s.cz

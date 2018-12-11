@@ -1,6 +1,6 @@
 <?php
 /**
- * clientzone - QR Payments.
+ * vendorzone - QR Payments.
  *
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
  * @copyright  2018 VitexSoftware v.s.cz

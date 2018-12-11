@@ -1,7 +1,7 @@
 #!/usr/bin/php -f
 <?php
 /**
- * clientzone - Zpracování zatím nezachycených úprav
+ * vendorzone - Zpracování zatím nezachycených úprav
  *
  * @author     Vítězslav Dvořák <info@vitexsofware.cz>
  * @copyright  2017 VitexSoftware v.s.cz
