@@ -11,7 +11,7 @@ namespace VendorZone\ui;
 /**
  * Page TOP.
  */
-class PageTop extends \Ease\Html\Div
+class PageTop extends \Ease\Html\DivTag
 {
     /**
      * Titulek stránky.
@@ -44,5 +44,4 @@ class PageTop extends \Ease\Html\Div
             $this->addItem(new History());
         }
     }
-
 }

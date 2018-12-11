@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns1="http://sozi.baierouge.fr" id="svg3941" sodipodi:docname="invoice.svg" viewBox="0 0 744.09 1052.4" version="1.1" inkscape:version="0.48.0 r9654">
+  <defs id="defs3943">
+    <radialGradient id="radialGradient4376" gradientUnits="userSpaceOnUse" cy="192.72" cx="1035.9" gradientTransform="matrix(1.5203 0 0 .71412 -1376.9 289.48)" r="50.131" inkscape:collect="always">
+      <stop id="stop4372" style="stop-color:#ff0000;stop-opacity:.36207" offset="0"/>
+      <stop id="stop4374" style="stop-color:#ff0000;stop-opacity:0" offset="1"/>
+    </radialGradient>
+    <radialGradient id="radialGradient4277" gradientUnits="userSpaceOnUse" cy="890.22" cx="1068.6" gradientTransform="matrix(-1.1079 .0000013912 -7.7472e-8 -.058107 1501 700.26)" r="258.14" inkscape:collect="always">
+      <stop id="stop4269" style="stop-color:#000000;stop-opacity:.57759" offset="0"/>
+      <stop id="stop4271" style="stop-color:#000000;stop-opacity:0" offset="1"/>
+    </radialGradient>
+    <radialGradient id="radialGradient4263" gradientUnits="userSpaceOnUse" cy="184.76" cx="1298.2" gradientTransform="matrix(1.1664 0 0 .47377 -1302.9 329.75)" r="41.714" inkscape:collect="always">
+      <stop id="stop4257" style="stop-color:#ff0000" offset="0"/>
+      <stop id="stop4259" style="stop-color:#ff0000;stop-opacity:.53448" offset="1"/>
+    </radialGradient>
+  </defs>
+  <sodipodi:namedview id="base" bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="69" pagecolor="#ffffff" inkscape:window-height="454" inkscape:window-maximized="0" inkscape:zoom="0.35" inkscape:window-x="4" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="375" inkscape:cy="634.28571" inkscape:window-width="472" inkscape:pageopacity="0.0" inkscape:document-units="px"/>
+  <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer">
+    <rect id="rect3707" ry="55.62" style="stroke:#000000;stroke-width:.38326;fill:#47dde9" rx="55.62" inkscape:export-ydpi="48.141441" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" transform="matrix(.85351 -.52107 .85351 .52107 0 0)" height="330.7" width="330.7" inkscape:export-xdpi="48.141441" y="303.14" x="-260.88"/>
+    <path id="rect3010-5-3" style="fill:#000000;fill-opacity:.20264" d="m286.99 147.86-215.04 131.4c0.0631-2.1823 4.7505-6.6747 11.368-10.719l188.79-115.36c6.6179-4.044 12.821-6.2066 14.88-5.3209z" inkscape:export-ydpi="48.141441" inkscape:transform-center-x="101.4846" inkscape:transform-center-y="65.751855" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" inkscape:connector-curvature="0" inkscape:export-xdpi="48.141441"/>
+    <path id="rect3010-5-3-4" style="fill:#ffffff;fill-opacity:.52423" d="m345.16 147.07 218.06 134.43c-0.064-2.2325-4.8175-6.8284-11.529-10.966l-191.44-118.02c-6.7112-4.1372-13.002-6.3495-15.089-5.4434z" inkscape:export-ydpi="48.141441" inkscape:transform-center-x="-102.91484" inkscape:transform-center-y="67.265974" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" inkscape:connector-curvature="0" inkscape:export-xdpi="48.141441"/>
+    <rect id="rect2816" style="stroke:#000000;stroke-width:.91560;fill:#ffffff" inkscape:export-ydpi="48.141441" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" height="365.8" width="443.66" inkscape:export-xdpi="48.141441" y="187.93" x="95.991"/>
+    <rect id="rect3725" style="stroke:url(#radialGradient4263);stroke-width:1.7411;fill:#ffffff" inkscape:export-ydpi="48.141441" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" transform="matrix(.98265 -.18549 .27148 .96244 0 0)" height="37.935" width="95.408" inkscape:export-xdpi="48.141441" y="398.32" x="163.69"/>
+    <path id="path3614" style="stroke:#000000;stroke-width:.50129;fill:#47dde9" d="m194.27 607.33s123.56-128.96 123.56-167.59l-254.45-146.06-0.0512 319.08 131.21-7.0423-0.26781 1.6071z" inkscape:export-ydpi="48.141441" sodipodi:nodetypes="cccccc" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" inkscape:connector-curvature="0" inkscape:export-xdpi="48.141441"/>
+    <text id="text3721" style="font-size:31.814px;font-family:Terminal;fill:#ff0000" inkscape:export-ydpi="48.141441" xml:space="preserve" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" transform="rotate(-11.92)" inkscape:export-xdpi="48.141441" y="430.81421" x="199.90565">
+      <tspan id="tspan3723" sodipodi:role="line" x="199.90565" style="font-family:Eras-UltraBlk" y="430.81421">PAID</tspan>
+    </text>
+    <path id="path3614-3" style="stroke:#000000;stroke-width:.50129;fill:#47dde9" d="m441.44 607.42-123.56-167.68 254.45-145.97 0.051 319.08-131.21-7.0423 0.2678 1.6071z" inkscape:export-ydpi="48.141441" sodipodi:nodetypes="cccccc" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" inkscape:connector-curvature="0" inkscape:export-xdpi="48.141441"/>
+    <path id="path2818" style="stroke:#000000;stroke-width:.35019;fill:#47dde9" sodipodi:type="star" sodipodi:sides="3" sodipodi:r1="144.1265" sodipodi:r2="72.063255" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" sodipodi:arg1="0.52359878" sodipodi:arg2="1.5707963" transform="matrix(2.0388 0 0 .80202 -92.86 23.904)" inkscape:randomized="0" inkscape:export-xdpi="48.141441" sodipodi:cy="662.36218" sodipodi:cx="201.42857" inkscape:export-ydpi="48.141441" inkscape:rounded="-0.01037116" inkscape:flatsided="true" d="m326.25 734.43c1.2945-2.2421-250.93-2.2421-249.63 0 1.2945 2.2421 127.41-216.19 124.82-216.19-2.589 0 123.52 218.43 124.82 216.19z"/>
+    <g id="flowRoot3709" style="fill:#000000" transform="translate(-734.64 -197.34)">
+      <path id="path4072" style="" d="m899.03 414.13h9.0742v67.068h-9.0742v-67.068"/>
+      <path id="path4074" style="" d="m967.62 450.83v30.367h-8.2656v-30.098c-0.00004-4.7617-0.92842-8.3255-2.7852-10.691-1.8568-2.3658-4.642-3.5488-8.3555-3.5488-4.4623 0.00005-7.9811 1.4226-10.557 4.2676-2.5755 2.8451-3.8633 6.7233-3.8633 11.635v28.436h-8.3106v-50.312h8.3106v7.8164c1.9765-3.0247 4.2975-5.2858 6.9629-6.7832 2.6953-1.4974 5.7949-2.246 9.2988-2.2461 5.7799 0.00005 10.152 1.7969 13.117 5.3906 2.9648 3.5638 4.4472 8.8197 4.4473 15.768"/>
+      <path id="path4076" style="" d="m978.27 430.89h8.7598l15.723 42.227 15.723-42.227h8.7597l-18.867 50.312h-11.23l-18.867-50.312"/>
+      <path id="path4078" style="" d="m1058.1 436.68c-4.4323 0.00005-7.9362 1.737-10.512 5.2109-2.5756 3.444-3.8633 8.1758-3.8633 14.195 0 6.0196 1.2727 10.766 3.8183 14.24 2.5755 3.444 6.0944 5.166 10.557 5.166 4.4023 0.00001 7.8912-1.737 10.467-5.2109 2.5755-3.474 3.8632-8.2057 3.8633-14.195-0.0001-5.9596-1.2878-10.676-3.8633-14.15-2.5756-3.5039-6.0645-5.2558-10.467-5.2559m0-7.0078c7.1874 0.00005 12.833 2.336 16.936 7.0078 4.1028 4.6719 6.1543 11.141 6.1543 19.406 0 8.2357-2.0515 14.704-6.1543 19.406-4.1029 4.6719-9.7481 7.0078-16.936 7.0078-7.2175 0-12.878-2.3359-16.98-7.0078-4.0729-4.7018-6.1094-11.171-6.1094-19.406 0-8.2656 2.0365-14.734 6.1094-19.406 4.1029-4.6718 9.763-7.0078 16.98-7.0078"/>
+      <path id="path4080" style="" d="m1094.9 430.89h8.2656v50.312h-8.2656v-50.312m0-19.586h8.2656v10.467h-8.2656v-10.467"/>
+      <path id="path4082" style="" d="m1156.6 432.82v7.7266c-2.336-1.2877-4.6869-2.246-7.0527-2.875-2.336-0.65881-4.7019-0.98824-7.0977-0.98829-5.3607 0.00005-9.5234 1.7071-12.488 5.1211-2.9649 3.3842-4.4473 8.1459-4.4473 14.285 0 6.1394 1.4824 10.916 4.4473 14.33 2.9648 3.3841 7.1275 5.0762 12.488 5.0762 2.3958 0.00001 4.7617-0.31444 7.0977-0.94335 2.3658-0.65885 4.7167-1.6322 7.0527-2.9199v7.6367c-2.306 1.0781-4.7018 1.8867-7.1875 2.4258-2.4557 0.53906-5.0762 0.8086-7.8613 0.8086-7.5768 0-13.596-2.3809-18.059-7.1426-4.4622-4.7617-6.6934-11.186-6.6934-19.271 0-8.2057 2.2461-14.659 6.7383-19.361 4.5221-4.7018 10.706-7.0527 18.553-7.0527 2.5455 0.00005 5.0312 0.26958 7.457 0.8086 2.4257 0.50916 4.7766 1.2878 7.0527 2.3359"/>
+      <path id="path4084" style="" d="m1214.1 453.98v4.043h-38.004c0.3594 5.6901 2.0664 10.033 5.1211 13.027 3.0846 2.9648 7.3672 4.4473 12.848 4.4473 3.1744 0.00001 6.2441-0.38931 9.209-1.168 2.9947-0.77864 5.9595-1.9466 8.8945-3.5039v7.8164c-2.9649 1.2578-6.0046 2.2161-9.1192 2.875-3.1146 0.65885-6.2741 0.98828-9.4785 0.98828-8.026 0-14.39-2.3359-19.092-7.0078-4.6718-4.6719-7.0078-10.991-7.0078-18.957 0-8.2356 2.2162-14.764 6.6485-19.586 4.4622-4.8515 10.467-7.2773 18.014-7.2774 6.7682 0.00005 12.114 2.1862 16.037 6.5586 3.9531 4.3425 5.9297 10.257 5.9297 17.744m-8.2656-2.4258c-0.06-4.5221-1.3327-8.1308-3.8184-10.826-2.4557-2.6953-5.72-4.0429-9.7929-4.043-4.612 0.00005-8.3106 1.3028-11.096 3.9082-2.7553 2.6055-4.3425 6.2741-4.7617 11.006l29.469-0.0449"/>
+    </g>
+    <rect id="rect4265" style="fill:url(#radialGradient4277)" inkscape:export-ydpi="48.141441" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" ry="15" height="30" width="514.29" inkscape:export-xdpi="48.141441" y="633.53" x="60"/>
+    <rect id="rect4337" style="fill:url(#radialGradient4376)" inkscape:export-ydpi="48.141441" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" transform="matrix(.97554 -.21983 .27926 .96022 0 0)" height="71.6" width="152.43" inkscape:export-xdpi="48.141441" y="391.31" x="121.76"/>
+    <path id="rect3010" style="fill:#ffffff;fill-opacity:.65198" d="m565.82 301.25v307.22c2.2921-1.5157 4.0328-9.2952 4.0328-18.75v-269.72c0-9.4548-1.7407-17.234-4.0328-18.75z" inkscape:export-ydpi="48.141441" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" inkscape:connector-curvature="0" inkscape:export-xdpi="48.141441"/>
+    <path id="rect3010-5" style="fill:#000000;fill-opacity:.20264" d="m69.316 296.95v309.49c-2.2921-1.5269-4.0328-9.364-4.0328-18.889v-271.71c0-9.5248 1.7407-17.362 4.0328-18.889z" inkscape:export-ydpi="48.141441" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" inkscape:connector-curvature="0" inkscape:export-xdpi="48.141441"/>
+    <path id="rect3010-5-5" style="fill:#000000;fill-opacity:.20264" d="m68.498 606.13h494.6c-2.44 2.2921-14.965 4.0328-30.186 4.0328h-434.23c-15.222 0-27.746-1.7407-30.186-4.0328z" inkscape:export-ydpi="48.141441" inkscape:export-filename="/home/kevie/qfacture/qfacture5.png" inkscape:connector-curvature="0" inkscape:export-xdpi="48.141441"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Invoice</dc:title>
+        <dc:date>2011-02-17T22:56:31</dc:date>
+        <dc:description>An envelope with an invoice sticking out and a red 'paid' stamp</dc:description>
+        <dc:source>https://openclipart.org/detail/120499/invoice-by-kevie</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>kevie</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bill</rdf:li>
+            <rdf:li>envelope</rdf:li>
+            <rdf:li>money</rdf:li>
+            <rdf:li>reminder</rdf:li>
+            <rdf:li>stationary</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
