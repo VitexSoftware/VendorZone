@@ -25,11 +25,11 @@ if ($oPage->isPosted()) {
 
     $emailAddress = addslashes(strtolower($_POST['email_address']));
 
-    if (isset($_POST['parent'])) {
-        $customerParent = addslashes($_POST['parent']);
-    } else {
-        $customerParent = $oUser->getUserID();
-    }
+
+
+
+
+
     $login = addslashes($_POST['login']);
     if (isset($_POST['password'])) {
         $password = addslashes($_POST['password']);
@@ -48,7 +48,7 @@ if ($oPage->isPosted()) {
             // $error = true;
             $oPage->addStatusMessage(_('Invalid mail address'), 'warning');
         } else {
-            $testuser = new \Ease\User();
+            $testuser = new User();
             $testuser->setKeyColumn('email');
             $testuser->loadFromSQL($testuser->dblink->AddSlashes($emailAddress));
             if ($testuser->getUserName()) {
@@ -68,7 +68,7 @@ if ($oPage->isPosted()) {
         $oPage->addStatusMessage(_('password conntrol do not match'), 'warning');
     }
 
-    $testuser = new \Ease\User();
+    $testuser = new User();
     $testuser->setKeyColumn('login');
     $testuser->loadFromSQL($testuser->dblink->addSlashes($login));
     $testuser->resetObjectIdentity();
@@ -97,7 +97,7 @@ if ($oPage->isPosted()) {
 
         if (!is_null($userID)) {
             $newOUser->setMyKey($userID);
-            if ($userID == 1) {
+            if ($userID == 0) {
                 $newOUser->setSettingValue('admin', true);
                 $oPage->addStatusMessage(_('Admin Account Created'), 'success');
                 $newOUser->saveToSQL();
@@ -109,8 +109,8 @@ if ($oPage->isPosted()) {
 
             $email = $oPage->addItem(new \Ease\Mailer($newOUser->getDataValue('email'),
                     _('Potvrzení registrace')));
-            $email->setMailHeaders(['From' => EMAIL_FROM]);
-            $email->addItem(new \Ease\Html\DivTag("Právě jste byl/a zaregistrován/a do Aplikace clientzone s těmito přihlašovacími údaji:\n"));
+            $email->setMailHeaders(['From' => constant('EMAIL_FROM')]);
+            $email->addItem(new \Ease\Html\DivTag("Právě jste byl/a zaregistrován/a do Aplikace VendorZone s těmito přihlašovacími údaji:\n"));
             $email->addItem(new \Ease\Html\DivTag(' Login: '.$newOUser->GetUserLogin()."\n"));
             $email->addItem(new \Ease\Html\DivTag(' Heslo: '.$_POST['password']."\n"));
             $email->send();
@@ -118,7 +118,7 @@ if ($oPage->isPosted()) {
             $email = $oPage->addItem(new \Ease\Mailer(SEND_INFO_TO,
                     sprintf(_('New Registration: %s'),
                         $newOUser->GetUserLogin())));
-            $email->setMailHeaders(['From' => EMAIL_FROM]);
+            $email->setMailHeaders(['From' => constant('EMAIL_FROM')]);
             $email->addItem(new \Ease\Html\DivTag(_("New Registered User")));
             $email->addItem(new \Ease\Html\DivTag('Login: '.$newOUser->GetUserLogin()));
             $email->send();
